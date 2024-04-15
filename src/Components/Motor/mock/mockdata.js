@@ -1,8 +1,8 @@
-import img1 from "../../Assets/camp1.png";
-import img2 from "../../Assets/camp2.png";
-import img3 from "../../Assets/camp3.png";
-import img4 from "../../Assets/camp4.png";
-import img5 from "../../Assets/camp5.png";
+import img1 from "../../../Assets/motormockdate/camp1.png";
+import img2 from "../../../Assets/motormockdate/camp2.png";
+import img3 from "../../../Assets/motormockdate/camp3.png";
+import img4 from "../../../Assets/motormockdate/camp4.png";
+import img5 from "../../../Assets/motormockdate/camp5.png";
 
 
 export const campcar = {
@@ -19,6 +19,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        star:"5.3",
       },
     },
     {
@@ -33,6 +34,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        star:"5.2",
       },
     },
     {
@@ -47,6 +49,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        star:"4.8",
       },
     },
     {
@@ -61,6 +64,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        star:"5.5",
       },
     },
     {
@@ -75,6 +79,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        star:"3.7",
       },
     },
     {
@@ -89,6 +94,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        star:"5.3",
       },
     },
     {
@@ -103,6 +109,7 @@ export const campcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        star:"5.0",
       },
     },
     {
@@ -117,6 +124,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        star:"4.9",
       },
     },
     {
@@ -131,6 +139,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        star:"5.1",
       },
     },
     {
@@ -145,6 +154,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        star:"4.5",
       },
     },
     {
@@ -159,6 +169,7 @@ export const campcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        star:"5.3",
       },
     },
     {
@@ -173,6 +184,7 @@ export const campcar = {
         date: "22년 03월",
         company: "스타모빌",
         location: " 경상권",
+        star:"3.0",
       },
     },
     {
@@ -187,6 +199,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        star:"4.2",
       },
     },
     {
@@ -201,6 +214,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        star:"3.9",
       },
     },
     {
@@ -215,6 +229,7 @@ export const campcar = {
         date: "22년 03월",
         company: " 영남캠핑카",
         location: "경상권",
+        star:"5.7",
       },
     },
     {
@@ -229,6 +244,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        star:"5.3",
       },
     },
     {
@@ -243,6 +259,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        star:"5.0",
       },
     },
     {
@@ -257,6 +274,7 @@ export const campcar = {
         date: "22년 03월",
         company: "영남캠핑카",
         location: "경상권",
+        star:"4.4",
       },
     },
     {
@@ -271,6 +289,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        star:"4.9",
       },
     },
     {
@@ -285,6 +304,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        star:"5.0",
       },
     },
     {
@@ -299,6 +319,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        star:"4.5",
       },
     },
     {
@@ -313,6 +334,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        star:"4.3",
       },
     },
     {
@@ -327,6 +349,7 @@ export const campcar = {
         date: "22년 03월",
         company: "한울캠핑카",
         location: "경상권",
+        star:"5.3",
       },
     },
     {
@@ -341,6 +364,7 @@ export const campcar = {
         date: "22년 03월",
         company: "훼미리캠핑카",
         location: "경상권",
+        star:"5.0",
       },
     },
     {
@@ -355,6 +379,7 @@ export const campcar = {
         date: "22년 03월",
         company: "훼미리캠핑카",
         location: "경상권",
+        star:"4.6",
       },
     },
     {
@@ -369,6 +394,7 @@ export const campcar = {
         date: "22년 03월",
         company: "에이스캠퍼",
         location: "충청권",
+        star:"5.9",
       },
     },
     {
@@ -383,6 +409,7 @@ export const campcar = {
         date: "22년 03월",
         company: "에이스캠퍼",
         location: "충청권",
+        star:"5.2",
       },
     },
     {
@@ -397,6 +424,7 @@ export const campcar = {
         date: "22년 03월",
         company: "월든모빌",
         location: "수도권",
+        star:"4.7",
       },
     },
     {
@@ -411,6 +439,7 @@ export const campcar = {
         date: "22년 03월",
         company: " 위드원모터스",
         location: " 수도권",
+        star:"4.6",
       },
     },
     {
@@ -425,6 +454,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        star:"4.2",
       },
     },
     {
@@ -439,6 +469,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        star:"4.8",
       },
     },
     {
@@ -453,6 +484,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        star:"4.0",
       },
     },
     {
@@ -467,6 +499,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        star:"4.4",
       },
     },
     {
@@ -481,6 +514,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        star:"5.3",
       },
     },
     {
@@ -495,6 +529,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        star:"5.3",
       },
     },
     {
@@ -509,6 +544,7 @@ export const campcar = {
         date: "22년 03월",
         company: "위드원모터스",
         location: "수도권",
+        star:"4.8",
       },
     },
     {
@@ -523,6 +559,7 @@ export const campcar = {
         date: "22년 03월",
         company: "미스터캠퍼",
         location: "수도권",
+        star:"4.3",
       },
     },
     {
@@ -537,6 +574,7 @@ export const campcar = {
         date: "22년 03월",
         company: "미스터캠퍼",
         location: "수도권",
+        star:"3.3",
       },
     },
     {
@@ -551,6 +589,7 @@ export const campcar = {
         date: "22년 03월",
         company: "미스터캠퍼",
         location: "수도권",
+        star:"4.3",
       },
     },
     {
@@ -565,6 +604,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        star:"3.8",
       },
     },
     {
@@ -579,6 +619,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        star:"4.9",
       },
     },
     {
@@ -593,6 +634,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        star:"4.5",
       },
     },
     {
@@ -607,6 +649,7 @@ export const campcar = {
         date: "22년 03월",
         company: "드림캠핑카",
         location: "경상권",
+        star:"5.1",
       },
     },
     {
@@ -621,6 +664,7 @@ export const campcar = {
         date: "22년 03월",
         company: "모터홈코리아",
         location: "수도권",
+        star:"4.5",
       },
     },
     {
@@ -635,6 +679,7 @@ export const campcar = {
         date: "22년 03월",
         company: "모터홈코리아",
         location: "수도권",
+        star:"3.5",
       },
     },
   ],

@@ -5,4 +5,26 @@
   font-family: 'Montserrat';
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.CarouselWrapper{
+  margin-top:90px;
+
+  img{
+    height: 525px;
+  }
+
+  @media only  screen and(max-width:900px ){
+    img{
+      height: 350px;
+    }
+  }
+  
+
+  @media only  screen and(max-width:700px ){
+    img{
+      height: 350px;
+    }
+  }
+}
+

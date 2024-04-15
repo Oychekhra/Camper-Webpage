@@ -1,44 +1,57 @@
 import React from 'react'
-import MenuWrapper from '../../Assets/menu.png'
-import User from '../../Assets/usericon.png'
+import UserIcon from '../../Assets/usericon.png'
 import ShoppingCart from '../../Assets/shoppingcart.png'
 import { Link } from 'react-router-dom'
-import { LogoWrapper, NavMiddleWrapper, NavbarContainer, NavbarWrapper } from './style'
+import { NavbarContainer, MiddleNavbarWrapper, SideNavbarWrapper, Icon, } from './style'
+import LogoContainer from './Logo'
+import scroll from '../../Assets/scrolldown.png'
+import RightDrawerComponent from './Drawer/right'
+import LeftDrawerComponent from './Drawer/left'
 
 const NavbarComponent = () => {
   return (
     <NavbarContainer>
-      <NavbarWrapper>
-        <img src={MenuWrapper} alt="Menu Logo" className='Menu1'/>
-        <LogoWrapper>Camper</LogoWrapper>
-      </NavbarWrapper>
-      <NavMiddleWrapper>
-       <Link to="/">
-       <select name="" id="">
-            <option value="">Motor</option>
-        </select>
+      <SideNavbarWrapper>
+        <LeftDrawerComponent/>
+        <LogoContainer />
+      </SideNavbarWrapper>
+      <MiddleNavbarWrapper>
+        <Link to='/motor' style={{textDecorationLine:'none'}}>
+        <div>
+          <p>Motor</p>
+          <img src={scroll} alt="" />
+        </div>
+        </Link>
+        <Link to='/caravan' style={{textDecorationLine:'none'}}>
+        <div>
+          <p> Caravan</p>
+          <img src={scroll} alt="" />
+        </div>
+        </Link>
+       <Link to='/tuning' style={{textDecorationLine:'none'}}>
+       <div>
+          <p>Tuning</p>
+          <img src={scroll} alt="" />
+        </div>
        </Link>
-        <select name="" id="">
-            <option value="">Camper</option>
-        </select>
-        <select name="" id="">
-            <option value="">Tuning</option>
-        </select>
-        <select name="" id="">
-            <option value="">Used Car</option>
-        </select>
+        <Link to='/usedcar' style={{textDecorationLine:'none'}}>
+        <div>
+          <p>Used Car</p>
+          <img src={scroll} alt="" />
+        </div>
+        </Link>
         <p>Camping Place</p>
-      </NavMiddleWrapper>
-      <NavbarWrapper>
-        <img src={ShoppingCart} alt="" className='ShoppingCart' />
-        <img src={User} alt=""  className='User'/>
-        <select name="" id="" className='Language'>
-            <option value="">En</option>
+      </MiddleNavbarWrapper>
+      <SideNavbarWrapper>
+        <img src={ShoppingCart} alt=" Shopping Cart Icon"/>
+        <Icon src={UserIcon} alt="User Icon" />
+        <select name="" id="">
+            <option value="">Eng</option>
             <option value="">Kor</option>
             <option value="">Rus</option>
         </select>
-        <img src={MenuWrapper} alt="" className='Menu2'/>
-      </NavbarWrapper>
+        <RightDrawerComponent />
+      </SideNavbarWrapper>
     </NavbarContainer>
   )
 }
