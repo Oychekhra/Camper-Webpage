@@ -1,17 +1,17 @@
 import React from 'react'
 import { BrandNameWrapper, Button, CampCarInfo, CampCarWrapper, ImgWrapper, InfoWrapper } from './Hmenustyle';
 import star from "../../../Assets/star.png"
-import { campcar } from '../../../MockData/motormock';
+import { usedCars } from '../../../MockData/usedcarmock';
 
 const HmenuComponent = () => {
-    const data =campcar.maindata;
+    const data =usedCars.maindata;
   return (
     <CampCarInfo>
     {data.map((value, key) =>{
         return(
             <CampCarWrapper key={key}>
                 <ImgWrapper>
-                <img src={value.car.photo || "No Data"} alt="" />
+                <img src={value.car.photo || "No Data"} alt="No data" />
                 </ImgWrapper>
                 <InfoWrapper>
                 <h2>{value.car.name}</h2>
@@ -22,7 +22,7 @@ const HmenuComponent = () => {
                         <p>{value.car.star}</p>
                     </div>
                 </BrandNameWrapper>
-                <h1>{value.car.cost}  Won</h1>
+                <h1>{value.car.cost}</h1>
                 </InfoWrapper>
                 <Button>
                     <button>Order</button>

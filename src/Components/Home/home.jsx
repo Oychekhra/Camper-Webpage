@@ -1,32 +1,30 @@
 import React from 'react'
-import {Carousel} from 'react-responsive-carousel'
-import maincarousel1 from '../../Assets/home/maincarousel1.png'
-import maincarousel2 from '../../Assets/home/maincarousel2.png'
-import maincarousel3 from '../../Assets/home/maincarousel3.png'
-import "react-responsive-carousel/lib/styles/carousel.min.css"
 import NavbarComponent from '../Navbar/navbar'
-// import { Carousel } from './style'
+import MainCarouselComponent from './MainCarousel'
+import MultiCarouselComponent from './MultiCarusel/MultiCarousel'
+import {  Header, HeaderWrapper, HomeContainer } from './style'
+import Blogs from './Blogs'
+import VideoContainer from './videos'
 
 const HomeComponent = () => {
   return (
     <div>
         <NavbarComponent />
-        <Carousel className='CarouselWrapper' 
-        showArrows={true} 
-        autoPlay
-        infiniteLoop
-        showStatus={false}
-        showThumbs={false}>
-            <div>
-                <img className='CarouselImg' src={maincarousel1} alt='Img1'/>
-            </div>
-            <div>
-                <img className='CarouselImg' src={maincarousel2} alt='Img2'/>
-            </div>
-            <div>
-                <img className='CarouselImg' src={maincarousel3} alt='Img3'/>
-            </div>
-        </Carousel>
+       <MainCarouselComponent />
+      <HomeContainer>
+      <Header>Recomended</Header>
+       <MultiCarouselComponent />
+       <HeaderWrapper>
+       <Header $video>Videos</Header>
+       </HeaderWrapper>
+       <VideoContainer />
+       <HeaderWrapper>
+       <Header $video>Blogs</Header>
+       </HeaderWrapper>
+       <Blogs />
+      </HomeContainer>
+
+
     </div>
   )
 }

@@ -27,6 +27,7 @@ justify-content:space-between;
 background-color:white;
 position:fixed;
 width:100%;
+z-index:10;
 
 img{
     cursor: pointer;
@@ -105,8 +106,6 @@ cursor: pointer;
 
 :hover {
     color: var(--blue, #006DAB);
-    font-weight:700;
-    font-size:18px;
     
 }
 

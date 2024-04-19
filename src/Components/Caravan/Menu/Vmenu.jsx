@@ -1,28 +1,28 @@
 import React from 'react'
 import { NameWrapper, Button, CampCarInfo, CampCarWrapper, ImgWrapper, InfoWrapper } from './vmenustyle';
 import star from "../../../Assets/star.png"
-import { campcar } from '../../../MockData/motormock';
+import { caravans } from '../../../MockData/caravanmock';
 
 const VmenuComponent = () => {
-    const data =campcar.maindata;
+    const data =caravans.maindata;
   return (
     <CampCarInfo>
     {data.map((value, key) =>{
         return(
             <CampCarWrapper key={key}>
                 <ImgWrapper>
-                <img src={value.car.photo || "No Data"} alt="" />
+                <img src={value.caravan.photo} alt=" No data" />
                 </ImgWrapper>
                 <InfoWrapper>
                 <NameWrapper>
-                <h2>{value.car.name}</h2>
-                <h1>{value.car.cost}  Won</h1>
+                <h2>{value.caravan.name}</h2>
+                <h1>{value.caravan.cost}</h1>
                 </NameWrapper>
                 <NameWrapper>
-                    <div>{value.car.company}</div>
+                    <div>{value.caravan.company}</div>
                     <div>
                         <img src={star} alt="" />
-                        <p>{value.car.star}</p>
+                        <p>{value.caravan.star}</p>
                     </div>
                 </NameWrapper>
                 <Button>

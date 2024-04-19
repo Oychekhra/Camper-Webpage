@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import { campcar } from './mock/mockdata'
+import { campcar } from '../../MockData/motormock'
 import { InfoContainer, LeftInfoWrapper, MiniSorterContainer, RightInfoWrapper, RightTopCon, RightTopConLeft, RightTopConRight, SorterContainer, TopContainer } from './style'
 import background from '../../Assets/Home.png'
 import Look1 from '../../Assets/windowIcon.png'
 import Look2 from '../../Assets/viewlist.png'
-import CostInfoContainer from './CostInfo/costinfo'
 import scroll from '../../Assets/scrolldown.png'
 import VmenuComponent from './Menu/Vmenu'
 import HmenuComponent from './Menu/Hmenu'
-import CostInfoDrawer from './CostInfo/dwawer'
+import CostInfoContainer from '../CostInfo/costinfo'
+import CostInfoDrawer from '../CostInfo/dwawer'
 
 const MotorComponent = () => {
     const data =campcar.maindata;

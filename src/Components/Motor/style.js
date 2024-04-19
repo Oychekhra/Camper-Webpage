@@ -84,24 +84,31 @@ export const RightTopConLeft =styled.div`
 
    
 `
-export const DrawerIcon =styled.div`
+export const MainDrawer =styled.div`
 display:none;
-height:30px;
-width:40px;
-border: 1px solid rgba(55, 55, 55, 0.30);
-border-radius:5px;
-margin-right:10px;
-img{
-    width:30px;
-    height:25px;
-    /* transform:translateX(-50%) */
-}
 
 @media only screen and (max-width:900px) {
     display:flex;
     justify-content:center;
     align-items:center;
 }
+`
+export const DrawerIcon =styled.div`
+display:none;
+justify-content:center;
+align-items:center;
+height:30px;
+width:40px;
+border: 1px solid rgba(55, 55, 55, 0.30);
+border-radius:5px;
+margin-right:10px;
+img{
+    width:100%;
+    height:100%;
+    border-radius:5px;
+}
+
+
 `
 
 export const SorterContainer =styled.div`

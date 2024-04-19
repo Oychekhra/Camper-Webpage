@@ -1,8 +1,8 @@
-import img1 from "../../../Assets/motormockdate/camp1.png";
-import img2 from "../../../Assets/motormockdate/camp2.png";
-import img3 from "../../../Assets/motormockdate/camp3.png";
-import img4 from "../../../Assets/motormockdate/camp4.png";
-import img5 from "../../../Assets/motormockdate/camp5.png";
+import img1 from '../Assets/motormockdate/camp1.png'
+import img2 from "../Assets/motormockdate/camp2.png";
+import img3 from "../Assets/motormockdate/camp3.png";
+import img4 from "../Assets/motormockdate/camp4.png";
+import img5 from "../Assets/motormockdate/camp5.png";
 
 
 export const campcar = {
