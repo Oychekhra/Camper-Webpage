@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const CostInfoWrapper =styled.div`
     display:flex;
@@ -6,7 +6,6 @@ export const CostInfoWrapper =styled.div`
     align-items:start;
     justify-content:start;
     width:100%;
-    flex:
 
 `
 
@@ -148,4 +147,33 @@ export const ImgContainer =styled.div`
             width:100%;
         }
     }
+`
+export const MainDrawer =styled.div`
+
+.Button{
+    display:none;
+    /* border:1px solid red; */
+    padding:0;
+
+@media only screen and (max-width:900px) {
+    display:flex;
+    justify-content:start;
+}
+}
+`
+export const DrawerIcon =styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+height:30px;
+width:40px;
+border: 1px solid rgba(55, 55, 55, 0.30);
+border-radius:5px;
+img{
+    width:100%;
+    height:100%;
+    border-radius:5px;
+}
+
+
 `

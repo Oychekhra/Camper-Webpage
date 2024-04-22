@@ -33,7 +33,7 @@ justify-content:end;
 width:100%;
 `
 
-export const MotorType =styled.div`
+export const Title =styled.div`
 display:flex;
 width:100%;
 align-items:center;

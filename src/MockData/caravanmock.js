@@ -1,9 +1,25 @@
+import img1 from '../Assets/Caravan/1.jfif'
+import img2 from '../Assets/Caravan/2.jfif'
+import img3 from '../Assets/Caravan/3.jfif'
+import img4 from '../Assets/Caravan/4.jfif'
+import img5 from '../Assets/Caravan/5.jfif'
+import img6 from '../Assets/Caravan/6.jfif'
+import img7 from '../Assets/Caravan/7.jfif'
+import img8 from '../Assets/Caravan/8.jfif'
+import img9 from '../Assets/Caravan/9.jfif'
+import img10 from '../Assets/Caravan/10.jfif'
+import img11 from '../Assets/Caravan/11.jfif'
+import img12 from '../Assets/Caravan/12.jfif'
+import img13 from '../Assets/Caravan/13.jfif'
+import img14 from '../Assets/Caravan/14.jfif'
+import img15 from '../Assets/Caravan/15.jfif'
+
 export const caravans = {
   maindata: [
     {
       id: 1,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img1}`,
         name: 'Airstream Classic',
         cost: '₩25,000,000',
         type: 'Travel Trailer',
@@ -18,7 +34,7 @@ export const caravans = {
     {
       id: 2,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img2}`,
         name: 'Jayco Jay Flight',
         cost: '₩22,500,000',
         type: 'Travel Trailer',
@@ -33,7 +49,7 @@ export const caravans = {
     {
       id: 3,
       caravan: {
-        photo: `No Data`,
+        photo: `${img3}`,
         name: 'Forest River Salem',
         cost: '₩21,000,000',
         type: 'Travel Trailer',
@@ -48,7 +64,7 @@ export const caravans = {
     {
       id: 4,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img4}`,
         name: 'Keystone Cougar',
         cost: '₩24,500,000',
         type: 'Fifth Wheel',
@@ -63,7 +79,7 @@ export const caravans = {
     {
       id: 5,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img5}`,
         name: 'Winnebago Micro Minnie',
         cost: '₩23,200,000',
         type: 'Travel Trailer',
@@ -78,7 +94,7 @@ export const caravans = {
     {
       id: 6,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img6}`,
         name: 'Grand Design Reflection',
         cost: '₩26,800,000',
         type: 'Fifth Wheel',
@@ -93,7 +109,7 @@ export const caravans = {
     {
       id: 7,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img7}`,
         name: 'Coachmen Apex Nano',
         cost: '₩20,700,000',
         type: 'Travel Trailer',
@@ -108,7 +124,7 @@ export const caravans = {
     {
       id: 8,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img8}`,
         name: 'Dutchmen Aspen Trail',
         cost: '₩19,500,000',
         type: 'Travel Trailer',
@@ -123,7 +139,7 @@ export const caravans = {
     {
       id: 9,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img9}`,
         name: 'Gulf Stream Ameri-Lite',
         cost: '₩18,900,000',
         type: 'Travel Trailer',
@@ -138,7 +154,7 @@ export const caravans = {
     {
       id: 10,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img10}`,
         name: 'Starcraft Autumn Ridge',
         cost: '₩21,300,000',
         type: 'Travel Trailer',
@@ -153,7 +169,7 @@ export const caravans = {
     {
       id: 11,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img11}`,
         name: 'Heartland Prowler',
         cost: '₩20,000,000',
         type: 'Travel Trailer',
@@ -168,7 +184,7 @@ export const caravans = {
     {
       id: 12,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img12}`,
         name: 'KZ Sportsmen Classic',
         cost: '₩19,200,000',
         type: 'Travel Trailer',
@@ -183,7 +199,7 @@ export const caravans = {
     {
       id: 13,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img13}`,
         name: 'Lance Travel Trailer',
         cost: '₩22,800,000',
         type: 'Travel Trailer',
@@ -198,7 +214,7 @@ export const caravans = {
     {
       id: 14,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img14}`,
         name: 'NuCamp Tab Teardrop',
         cost: '₩17,500,000',
         type: 'Teardrop Trailer',
@@ -213,7 +229,7 @@ export const caravans = {
     {
       id: 15,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img15}`,
         name: 'Oliver Legacy Elite',
         cost: '₩26,500,000',
         type: 'Travel Trailer',
@@ -228,7 +244,7 @@ export const caravans = {
     {
       id: 16,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img3}`,
         name: 'Palomino Puma',
         cost: '₩23,000,000',
         type: 'Travel Trailer',
@@ -243,7 +259,7 @@ export const caravans = {
     {
       id: 17,
       caravan: {
-        photo:  `No Data`,
+        photo: `${img6}`,
         name: 'Riverside Retro',
         cost: '₩18,700,000',
         type: 'Travel Trailer',
@@ -258,7 +274,7 @@ export const caravans = {
     {
       id: 18,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img9}`,
         name: 'Scamp 16',
         cost: '₩20,300,000',
         type: 'Travel Trailer',
@@ -273,7 +289,7 @@ export const caravans = {
     {
       id: 19,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img12}`,
         name: 'SylvanSport Go',
         cost: '₩15,800,000',
         type: 'Utility Trailer',
@@ -288,7 +304,7 @@ export const caravans = {
     {
       id: 20,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img15}`,
         name: 'Taxa Outdoors Cricket',
         cost: '₩19,900,000',
         type: 'Travel Trailer',
@@ -303,7 +319,7 @@ export const caravans = {
     {
       id: 21,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img7}`,
         name: 'Travel Lite Aura',
         cost: '₩17,200,000',
         type: 'Travel Trailer',
@@ -318,7 +334,7 @@ export const caravans = {
     {
       id: 22,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img14}`,
         name: 'Venture RV Sonic',
         cost: '₩21,700,000',
         type: 'Travel Trailer',
@@ -333,7 +349,7 @@ export const caravans = {
     {
       id: 23,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img5}`,
         name: 'Aliner Classic',
         cost: '₩16,900,000',
         type: 'A-Frame Camper',
@@ -348,7 +364,7 @@ export const caravans = {
     {
       id: 24,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img10}`,
         name: 'Casita Spirit Deluxe',
         cost: '₩18,500,000',
         type: 'Travel Trailer',
@@ -363,7 +379,7 @@ export const caravans = {
     {
       id: 25,
       caravan: {
-        photo:  `No Data`,
+        photo:  `${img15}`,
         name: 'Little Guy Mini Max',
         cost: '₩19,000,000',
         type: 'Teardrop Trailer',

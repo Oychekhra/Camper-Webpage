@@ -34,6 +34,7 @@ export const CampCarWrapper =styled.div`
 `
 
 export const ImgWrapper =styled.div`
+    width:100%;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -41,6 +42,7 @@ export const ImgWrapper =styled.div`
 
     img{
         width:100%;
+        border-radius:30px;
     }
 `
 

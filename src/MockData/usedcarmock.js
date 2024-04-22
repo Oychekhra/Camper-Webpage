@@ -1,11 +1,25 @@
-
+import img1 from '../Assets/UsedCars/1.jfif'
+import img2 from '../Assets/UsedCars/2.jfif'
+import img3 from '../Assets/UsedCars/3.jfif'
+import img4 from '../Assets/UsedCars/4.jfif'
+import img5 from '../Assets/UsedCars/5.jfif'
+import img6 from '../Assets/UsedCars/6.jfif'
+import img7 from '../Assets/UsedCars/7.jfif'
+import img8 from '../Assets/UsedCars/8.jfif'
+import img9 from '../Assets/UsedCars/9.jfif'
+import img10 from '../Assets/UsedCars/10.jfif'
+import img11 from '../Assets/UsedCars/11.jfif'
+import img12 from '../Assets/UsedCars/12.jfif'
+import img13 from '../Assets/UsedCars/13.jfif'
+import img14 from '../Assets/UsedCars/14.jfif'
+import img15 from '../Assets/UsedCars/15.jfif'
 
 export const usedCars = {
   maindata: [
     {
       id: 11,
       car: {
-        photo: `No Data`,
+        photo: `${img1}`,
         name: 'Toyota Land Cruiser',
         cost: '₩13,500,000',
         type: 'SUV',
@@ -20,7 +34,7 @@ export const usedCars = {
     {
       id: 12,
       car: {
-        photo: `No Data`,
+        photo: `${img2}`,
         name: 'Volkswagen California',
         cost: '₩12,200,000',
         type: 'Van',
@@ -35,7 +49,7 @@ export const usedCars = {
     {
       id: 13,
       car: {
-        photo:  `No Data`,
+        photo: `${img3}`,
         name: 'Jeep Wrangler',
         cost: '₩14,500,000',
         type: 'Jeep',
@@ -50,7 +64,7 @@ export const usedCars = {
     {
       id: 14,
       car: {
-        photo:  `No Data`,
+        photo:  `${img4}`,
         name: 'Subaru Outback',
         cost: '₩11,200,000',
         type: 'Station Wagon',
@@ -65,7 +79,7 @@ export const usedCars = {
     {
       id: 15,
       car: {
-        photo:  `No Data`,
+        photo: `${img5}`,
         name: 'Land Rover Discovery',
         cost: '₩13,700,000',
         type: 'SUV',
@@ -80,7 +94,7 @@ export const usedCars = {
     {
       id: 16,
       car: {
-        photo:  `No Data`,
+        photo:  `${img6}`,
         name: 'Mercedes-Benz Sprinter',
         cost: '₩12,800,000',
         type: 'Van',
@@ -95,7 +109,7 @@ export const usedCars = {
     {
       id: 17,
       car: {
-        photo:  `No Data`,
+        photo:  `${img7}`,
         name: 'Ford Bronco',
         cost: '₩13,200,000',
         type: 'Jeep',
@@ -110,7 +124,7 @@ export const usedCars = {
     {
       id: 18,
       car: {
-        photo:  `No Data`,
+        photo:  `${img8}`,
         name: 'Volvo V60 Cross Country',
         cost: '₩12,700,000',
         type: 'Station Wagon',
@@ -125,7 +139,7 @@ export const usedCars = {
     {
       id: 19,
       car: {
-        photo:  `No Data`,
+        photo:  `${img9}`,
         name: 'Toyota 4Runner',
         cost: '₩12,300,000',
         type: 'SUV',
@@ -140,7 +154,7 @@ export const usedCars = {
     {
       id: 20,
       car: {
-        photo:  `No Data`,
+        photo:  `${img10}`,
         name: 'Ford Transit Connect',
         cost: '₩11,800,000',
         type: 'Van',
@@ -155,7 +169,7 @@ export const usedCars = {
     {
       id: 21,
       car: {
-        photo:  `No Data`,
+        photo:  `${img11}`,
         name: 'Land Rover Defender',
         cost: '₩14,300,000',
         type: 'Jeep',
@@ -170,7 +184,7 @@ export const usedCars = {
     {
       id: 22,
       car: {
-        photo: `No Data`,
+        photo: `${img12}`,
         name: 'Subaru Forester',
         cost: '₩13,600,000',
         type: 'Station Wagon',
@@ -185,7 +199,7 @@ export const usedCars = {
     {
       id: 23,
       car: {
-        photo:  `No Data`,
+        photo:  `${img13}`,
         name: 'Jeep Cherokee',
         cost: '₩13,000,000',
         type: 'SUV',
@@ -200,7 +214,7 @@ export const usedCars = {
     {
       id: 24,
       car: {
-        photo:  `No Data`,
+        photo:  `${img14}`,
         name: 'Volkswagen Multivan',
         cost: '₩14,800,000',
         type: 'Van',
@@ -215,7 +229,7 @@ export const usedCars = {
     {
       id: 25,
       car: {
-        photo:  `No Data`,
+        photo:  `${img15}`,
         name: 'Toyota Sequoia',
         cost: '₩13,300,000',
         type: 'SUV',
@@ -230,7 +244,7 @@ export const usedCars = {
     {
       id: 26,
       car: {
-        photo:  `No Data`,
+        photo:  `${img2}`,
         name: 'Mercedes-Benz Metris',
         cost: '₩12,600,000',
         type: 'Van',
@@ -245,7 +259,7 @@ export const usedCars = {
     {
       id: 27,
       car: {
-        photo:  `No Data`,
+        photo: `${img4}`,
         name: 'Jeep Grand Cherokee',
         cost: '₩14,200,000',
         type: 'SUV',
@@ -260,7 +274,7 @@ export const usedCars = {
     {
       id: 28,
       car: {
-        photo:  `No Data`,
+        photo:  `${img6}`,
         name: 'Volvo XC70',
         cost: '₩13,700,000',
         type: 'Station Wagon',
@@ -275,7 +289,7 @@ export const usedCars = {
     {
       id: 29,
       car: {
-        photo:  `No Data`,
+        photo:  `${img8}`,
         name: 'Toyota Highlander',
         cost: '₩13,200,000',
         type: 'SUV',
@@ -290,7 +304,7 @@ export const usedCars = {
     {
       id: 30,
       car: {
-        photo:  `No Data`,
+        photo: `${img10}`,
         name: 'Ford Transit',
         cost: '₩12,800,000',
         type: 'Van',

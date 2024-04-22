@@ -64,51 +64,20 @@ export const RightTopConLeft =styled.div`
     justify-content:space-between;
     gap:20px;
 
-    div{
-        display:flex;
-        align-items:center;
-        justify-content:space-between;
-    }
-
     @media only screen and (max-width:700px) {
         flex-direction:column;
         align-items:start;
         justify-content:center;
 
-        div{
-            padding-bottom:5px;
-
-        }
-
     }
-
    
 `
-export const MainDrawer =styled.div`
-display:none;
 
-@media only screen and (max-width:900px) {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-`
-export const DrawerIcon =styled.div`
-display:none;
-justify-content:center;
-align-items:center;
-height:30px;
-width:40px;
-border: 1px solid rgba(55, 55, 55, 0.30);
-border-radius:5px;
-margin-right:10px;
-img{
-    width:100%;
-    height:100%;
-    border-radius:5px;
-}
-
-
+export const MiniContainer =styled.div`
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        /* gap:10px; */
 `
 
 export const SorterContainer =styled.div`
@@ -140,10 +109,10 @@ export const RightTopConRight =styled.div`
         flex-direction:column;
         align-items:start;
         justify-content:center;
-
+/* 
         div{
             padding-bottom:5px;
-        }
+        } */
 
     }
 

@@ -75,6 +75,10 @@ line-height: normal;
   width: 50%;
   padding: 5px;
   border-radius: 20px;
+
+  @media only screen and (max-width:900px) {
+    width: 90%;
+}
 }
 .popup-arrow {
   color: rgb(255, 255, 255);
@@ -96,6 +100,9 @@ line-height: normal;
   background: rgb(255, 255, 255);
   width: 50%;
   padding: 5px;
+  @media only screen and (max-width:900px) {
+    width: 90%;
+}
 }
 .my-popup-arrow {
   color: rgb(255, 255, 255);
@@ -142,5 +149,19 @@ html[data-theme='light'] .popup-arrow > svg {
   stroke: #d7d7d7;
   stroke-dasharray: 30px;
   stroke-dashoffset: -54px;
+}
+
+.Title{
+  color: var(--text, #373737);
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.Title :hover{
+  color: white;
+  background-color: var(--blue, #006DAB);
 }
 

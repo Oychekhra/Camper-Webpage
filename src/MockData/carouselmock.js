@@ -9,77 +9,77 @@ export const MultiCarousel = {
       {
         id: 1,
         car: {
-          photo:  {Carousel1},
+          photo: `${Carousel1}`,
           name: 'Knaus',
         },
       },
       {
         id: 2,
         car: {
-          photo:  {Image2},
+          photo: `${Image2}`,
           name: 'Aidas',
         },
       },
       {
         id: 3,
         car: {
-          photo:  {Image3},
+          photo: `${Image3}`,
           name:'Escape',
         },
       },
       {
         id: 4,
         car: {
-          photo:  {Image4},
+          photo: `${Image4}`,
           name: 'Lysao',
         },
       },
       {
         id: 5,
         car: {
-          photo:  {Image2},
+          photo:  `${Image2}`,
           name: 'Aidal',
         },
       },
       {
         id: 6,
         car: {
-          photo:  {Image1},
+          photo:  `${Image1}`,
           name: 'Escape',
         },
       },
       {
         id: 7,
         car: {
-          photo:  {Image4},
+          photo:  `${Image3}`,
           name: 'Knaus',
         },
       },
       {
         id: 8,
         car: {
-          photo:  {Image4},
+          photo:  `${Image4}`,
           name: 'Lyseo',
         },
       },
       {
         id: 9,
         car: {
-          photo:  {Image2},
+          photo:  `${Image1}`,
           name: 'Knaus',
         },
       },
       {
         id: 10,
         car: {
-          photo:  {Image1},
+          photo:  `${Image2}`,
           name: 'Escape',
         },
       },
       {
         id: 11,
         car: {
-          photo:  {Image3},
+          photo:  `${Image1}`,
           name: 'Aidal',
         },
       },

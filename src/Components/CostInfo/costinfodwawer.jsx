@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import Sorter from '../../Assets/sorter.png'
-import { DrawerIcon, MainDrawer} from '../Motor/style';
+import { DrawerIcon, MainDrawer} from './costinfostyle';
 import CostInfoContainer from './costinfo';
 
 
@@ -22,7 +22,7 @@ export default function CostInfoDrawer() {
 
   return (
     < MainDrawer>
-      <Button onClick={toggleDrawer(true)} >
+      <Button className='Button' onClick={toggleDrawer(true)}>
         <DrawerIcon>
           <img  src={Sorter} alt="Sorter icon" />
         </DrawerIcon>

@@ -12,12 +12,13 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:start;
+padding:10px;
 margin:20px;
-border:1px solid black;
+/* border:1px solid black; */
 
 img{
   width:100%;
-  height:200px;
+  height:100%;
   border:none;
 }
 
@@ -29,6 +30,7 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:start;
+width:100%;
 
 p{
   color: var(--text, #373737);
@@ -40,10 +42,15 @@ line-height: normal;
 padding:20px 0;
 }
 
+
 button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
   background-color: var(--blue, #006DAB);
   color:white;
   color: #FFF;
+  width:100%;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -56,6 +63,7 @@ margin-bottom:10px;
 }
 
 select{
+  width:95%;
   border:none;
   padding:10px;
   color: var(--text, #373737);
@@ -137,7 +145,7 @@ cursor: pointer;
 
 img{
   padding:18px;
-  border-radius:30px;
+  border-radius:50%;
   background-color: rgba(255, 255, 255, 0.30);
   border:2px solid white;
 }

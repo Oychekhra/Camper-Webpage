@@ -1,5 +1,5 @@
 import React from 'react'
-import { DrawerContainer, MotorType, CloseBtn } from './style';
+import { DrawerContainer,  CloseBtn, Title } from './style';
 import Arrow from '../../../Assets/rightarrow.png'
 import Close from '../../../Assets/closebtn.png'
 import { Link } from 'react-router-dom';
@@ -11,29 +11,34 @@ const DrawerItems = () => {
             <img src={Close} alt="" />
         </CloseBtn>
         <br/>
+        <Link to='/' style={{textDecoration:'none', width:'100%'}}>
+        <Title>
+          <p>Home</p>
+        </Title>
+        </Link>
         <Link to='/motor' style={{textDecoration:'none', width:'100%'}}>
-        <MotorType>
+        <Title>
           <p>Motor</p>
           <img src={Arrow} alt="" />
-        </MotorType>
+        </Title>
         </Link>
         <Link to='/caravan' style={{textDecoration:'none', width:'100%'}}>
-        <MotorType>
+        <Title>
         <p>Caravan</p>
           <img src={Arrow} alt="" />
-        </MotorType>
+        </Title>
         </Link>
         <Link to='/tuning' style={{textDecoration:'none', width:'100%'}}>
-        <MotorType>
+        <Title>
         <p>Tuning</p>
           <img src={Arrow} alt="" />
-        </MotorType>
+        </Title>
         </Link>
         <Link to='/usedcar' style={{textDecoration:'none', width:'100%'}}>
-        <MotorType>
+        <Title>
         <p>Second Hand</p>
           <img src={Arrow} alt="" />
-        </MotorType>
+        </Title>
         </Link>
         <div>Camping Place</div>
         <div>Sign in</div>

@@ -1,8 +1,8 @@
 import background from '../../Assets/tuning.jpg'
-import { InfoContainer, LeftInfoWrapper, MiniSorterContainer, RightInfoWrapper, RightTopCon, RightTopConLeft, RightTopConRight, SorterContainer, TopContainer } from '../Motor/style'
+import { InfoContainer, LeftInfoWrapper, MiniContainer, MiniSorterContainer, RightInfoWrapper, RightTopCon, RightTopConLeft, RightTopConRight, SorterContainer, TopContainer } from '../Motor/style'
 import React, { useState } from 'react'
 import CostInfoContainer from '../CostInfo/costinfo'
-import CostInfoDrawer from '../CostInfo/dwawer'
+import CostInfoDrawer from '../CostInfo/costinfodwawer'
 import VmenuComponent from './Menu/Vmenu'
 import HmenuComponent from './Menu/Hmenu'
 import Look1 from '../../Assets/windowIcon.png'
@@ -33,10 +33,10 @@ const TuningComponent = () => {
             <RightInfoWrapper>
                <RightTopCon>
                 <RightTopConLeft>
-                    <div>
+                    <MiniContainer>
                     <CostInfoDrawer />
                     <p>Item  <span style={{color:'blue'}}>{data.length}</span></p>
-                    </div>
+                    </MiniContainer>
                     <SorterContainer>
                         <MiniSorterContainer $Left style={{width:'200px'}}>Sort by</MiniSorterContainer>
                         <MiniSorterContainer $Right><img src={scroll} alt="scroll icon" /></MiniSorterContainer>

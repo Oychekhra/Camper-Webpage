@@ -30,9 +30,11 @@ export const ImgWrapper =styled.div`
     flex-direction:column;
     align-items:center;
     justify-content:center;
+    width:100%;
 
     img{
         width:100%;
+        border-radius:20px;
     }
 `
 

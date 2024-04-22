@@ -2,6 +2,7 @@ import React from 'react'
 import { BrandNameWrapper, Button, CampCarInfo, CampCarWrapper, ImgWrapper, InfoWrapper } from './Hmenustyle';
 import star from "../../../Assets/star.png"
 import { campcar } from '../../../MockData/motormock';
+import { Link } from 'react-router-dom';
 
 const HmenuComponent = () => {
     const data =campcar.maindata;
@@ -9,6 +10,7 @@ const HmenuComponent = () => {
     <CampCarInfo>
     {data.map((value, key) =>{
         return(
+            <Link to={`${value.id}`} style={{textDecorationLine:'none'}}>
             <CampCarWrapper key={key}>
                 <ImgWrapper>
                 <img src={value.car.photo || "No Data"} alt="" />
@@ -29,6 +31,7 @@ const HmenuComponent = () => {
                     <button>Compare</button>
                 </Button>
             </CampCarWrapper>
+            </Link>
         );
     })}
    </CampCarInfo>

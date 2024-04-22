@@ -1,9 +1,26 @@
+import img1 from '../Assets/Tuning/1.jfif';
+import img2 from '../Assets/Tuning/2.jfif';
+import img3 from '../Assets/Tuning/3.jfif';
+import img4 from '../Assets/Tuning/4.jfif';
+import img5 from '../Assets/Tuning/5.jfif';
+import img6 from '../Assets/Tuning/6.jfif';
+import img7 from '../Assets/Tuning/7.jfif';
+import img8 from '../Assets/Tuning/8.jfif';
+import img9 from '../Assets/Tuning/9.jfif';
+import img10 from '../Assets/Tuning/10.jfif';
+import img11 from '../Assets/Tuning/11.jfif';
+import img12 from '../Assets/Tuning/12.jfif';
+import img13 from '../Assets/Tuning/13.jfif';
+import img14 from '../Assets/Tuning/14.jfif';
+import img15 from '../Assets/Tuning/15.jfif';
+
+
 export const tuning = {
   maindata: [
     {
       id: 1,
       car: {
-        photo:  `No Data`,
+        photo:`${img1}`,
         name: '퍼포먼스X',
         cost: '₩65,500,000',
         type: '포드 머스탱 (Ford Mustang)',
@@ -18,7 +35,7 @@ export const tuning = {
     {
       id: 2,
       car: {
-        photo:  `No Data`,
+        photo: `${img2}`,
         name: "르벤투스680S",
         cost: "93,700,000",
         type: "르노마스터",
@@ -33,7 +50,7 @@ export const tuning = {
     {
       id: 3,
       car: {
-        photo: `No Data`,
+        photo: `${img3}`,
         name: "퍼포먼스X",
         cost: "₩65,500,000",
         type: "포드 머스탱",
@@ -48,7 +65,7 @@ export const tuning = {
     {
       id: 4,
       car: {
-        photo: `No Data`,
+        photo: `${img4}`,
         name: "스피드데몬S",
         cost: "₩98,600,000",
         type: "Dodge Charger",
@@ -63,7 +80,7 @@ export const tuning = {
     {
       id: 5,
       car: {
-        photo:  `No Data`,
+        photo:  `${img5}`,
         name: "허니콤 X",
         cost: "₩80,000,000",
         type: "Mini Cooper S",
@@ -78,7 +95,7 @@ export const tuning = {
     {
       id: 6,
       car: {
-        photo:  `No Data`,
+        photo:  `${img6}`,
         name: "아이언스톰 GTR",
         cost: "₩105,000,000",
         type: "Nissan GT-R",
@@ -93,7 +110,7 @@ export const tuning = {
     {
       id: 7,
       car: {
-        photo:  `No Data`,
+        photo:  `${img7}`,
         name: "벨로시터GT",
         cost: "₩70,800,000",
         type: "Hyundai Veloster N",
@@ -108,7 +125,7 @@ export const tuning = {
     {
       id: 8,
       car: {
-        photo:  `No Data`,
+        photo:  `${img8}`,
         name: "파이어스타 S",
         cost: "₩82,400,000",
         type: "Chevrolet Camaro",
@@ -123,7 +140,7 @@ export const tuning = {
     {
       id: 9,
       car: {
-        photo:  `No Data`,
+        photo:  `${img9}`,
         name: "아마겟돈R",
         cost: "₩94,200,000",
         type: "Mazda RX-7",
@@ -138,7 +155,7 @@ export const tuning = {
     {
       id: 10,
       car: {
-        photo:  `No Data`,
+        photo: `${img10}`,
         name: "슈퍼블레이즈 X",
         cost: "₩78,900,000",
         type: "Chevrolet Corvette",
@@ -153,7 +170,7 @@ export const tuning = {
     {
       id: 11,
       car: {
-        photo:  `No Data`,
+        photo:  `${img11}`,
         name: "스피더X",
         cost: "₩85,700,000",
         type: "Subaru Impreza WRX STI",
@@ -168,7 +185,7 @@ export const tuning = {
     {
       id: 12,
       car: {
-        photo:  `No Data`,
+        photo: `${img12}`,
         name: "스피드스타R",
         cost: "₩72,600,000",
         type: "Volkswagen Golf GTI",
@@ -183,7 +200,7 @@ export const tuning = {
     {
       id: 13,
       car: {
-        photo:  `No Data`,
+        photo:  `${img13}`,
         name: "블랙판서 S",
         cost: "₩88,300,000",
         type: "Audi RS5",
@@ -198,7 +215,7 @@ export const tuning = {
     {
       id: 14,
       car: {
-        photo:  `No Data`,
+        photo: `${img14}`,
         name: "스피드라이트 X",
         cost: "₩83,200,000",
         type: "Chevrolet Camaro ZL1",
@@ -213,7 +230,7 @@ export const tuning = {
     {
       id: 15,
       car: {
-        photo:  `No Data`,
+        photo:  `${img15}`,
         name: "아이스버스트 S",
         cost: "₩95,500,000",
         type: "Mercedes-AMG C63",
@@ -228,7 +245,7 @@ export const tuning = {
     {
       id: 16,
       car: {
-        photo:  `No Data`,
+        photo:  `${img3}`,
         name: "다크나이트 X",
         cost: "₩77,800,000",
         type: "Ford Focus RS",
@@ -243,7 +260,7 @@ export const tuning = {
     {
       id: 17,
       car: {
-        photo:  `No Data`,
+        photo:  `${img6}`,
         name: "아이언펀치 S",
         cost: "₩90,700,000",
         type: "Chevrolet Corvette Z06",
@@ -258,7 +275,7 @@ export const tuning = {
     {
       id: 18,
       car: {
-        photo:  `No Data`,
+        photo:  `${img9}`,
         name: "슈퍼노바 R",
         cost: "₩94,000,000",
         type: "Subaru WRX STI",
@@ -273,7 +290,7 @@ export const tuning = {
     {
       id: 19,
       car: {
-        photo:  `No Data`,
+        photo: `${img12}`,
         name: "엔젤스핀 S",
         cost: "₩85,200,000",
         type: "Honda Civic Type R",
@@ -288,7 +305,7 @@ export const tuning = {
     {
       id: 20,
       car: {
-        photo:  `No Data`,
+        photo:  `${img15}`,
         name: "터보스파크 S",
         cost: "₩75,900,000",
         type: "Ford Fiesta ST",
@@ -303,7 +320,7 @@ export const tuning = {
     {
       id: 21,
       car: {
-        photo:  `No Data`,
+        photo:  `${img4}`,
         name: "스카이라인 S",
         cost: "₩98,300,000",
         type: "Nissan Skyline GT-R",
@@ -318,7 +335,7 @@ export const tuning = {
     {
       id: 22,
       car: {
-        photo:  `No Data`,
+        photo: `${img8}`,
         name: "레이저비트 S",
         cost: "₩91,600,000",
         type: "Chevrolet Camaro SS",
@@ -333,7 +350,7 @@ export const tuning = {
     {
       id: 23,
       car: {
-        photo:  `No Data`,
+        photo:  `${img7}`,
         name: "스피드트랙 R",
         cost: "₩80,500,000",
         type: "Ford Focus ST",
@@ -348,7 +365,7 @@ export const tuning = {
     {
       id: 24,
       car: {
-        photo:  `No Data`,
+        photo:  `${img1}`,
         name: "슈퍼스트라이크 S",
         cost: "₩99,200,000",
         type: "Dodge Challenger SRT Hellcat",
@@ -363,7 +380,7 @@ export const tuning = {
     {
       id: 25,
       car: {
-        photo:  `No Data`,
+        photo:  `${img5}`,
         name: "레드라인 R",
         cost: "₩86,200,000",
         type: "Chevrolet Corvette Stingray",

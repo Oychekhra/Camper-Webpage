@@ -3,6 +3,31 @@ import img2 from "../Assets/motormockdate/camp2.png";
 import img3 from "../Assets/motormockdate/camp3.png";
 import img4 from "../Assets/motormockdate/camp4.png";
 import img5 from "../Assets/motormockdate/camp5.png";
+import comfort1 from '../Assets/motormockdate/comfort1.jfif'
+import comfort2 from '../Assets/motormockdate/comfort2.jfif'
+import comfort3 from '../Assets/motormockdate/comfort3.jfif'
+import comfort4 from '../Assets/motormockdate/comfort4.jfif'
+import comfort5 from '../Assets/motormockdate/comfort5.jpg'
+import dining1 from '../Assets/motormockdate/dining1.jfif'
+import dining2 from '../Assets/motormockdate/dining2.jpeg'
+import dining3 from '../Assets/motormockdate/dining3.jfif'
+import dining4 from '../Assets/motormockdate/dining4.jpg'
+import dining5 from '../Assets/motormockdate/dining5.jfif'
+import litup1 from '../Assets/motormockdate/litup1.png'
+import litup2 from '../Assets/motormockdate/litup2.jfif'
+import litup3 from '../Assets/motormockdate/litup3.jfif'
+import litup4 from '../Assets/motormockdate/litup4.jfif'
+import litup5 from '../Assets/motormockdate/litup5.jfif'
+import temp1 from '../Assets/motormockdate/temp1.png'
+import temp2 from '../Assets/motormockdate/temp2.jpg'
+import temp3 from '../Assets/motormockdate/temp3.jfif'
+import temp4 from '../Assets/motormockdate/temp4.jfif'
+import temp5 from '../Assets/motormockdate/temp5.jfif'
+import Door1 from '../Assets/motormockdate/door1.png'
+import Door2 from '../Assets/motormockdate/door2.jpg'
+import Door3 from '../Assets/motormockdate/door3.jfif'
+import Door4 from '../Assets/motormockdate/doo4.jfif'
+import Door5 from '../Assets/motormockdate/door5.jfif'
 
 
 export const campcar = {
@@ -21,6 +46,19 @@ export const campcar = {
         location: "수도권",
         star:"5.3",
       },
+      details:{
+        comfort: "Indulge in supreme comfort aboard the 르벤투스S+ with its luxurious seating, ergonomic design, and premium amenities, ensuring a blissful journey for all occupants.",
+        photo2:`${comfort1}`,
+        tidiness: "Experience impeccable tidiness in the 르벤투스S+ with its meticulously organized interiors, ample storage solutions, and easy-to-clean surfaces, maintaining a pristine environment throughout your travels.",
+        photo3:`${dining1}`,
+        ventilation: "Stay refreshed and invigorated in the 르벤투스S+ thanks to its efficient ventilation system that ensures optimal airflow, eliminating stuffiness and ensuring a pleasant atmosphere inside the caravan.",
+        lighting: "Illuminate your adventures with the 르벤투스S+'s integrated LED lighting, offering ample brightness for nighttime activities while creating a warm and inviting ambiance inside the cabin.",
+        photo4:`${litup1}`,
+        photo6:`${Door1}`,
+        easeOfAccess: "Enjoy seamless access to every corner of the 르벤투스S+ with its user-friendly layout, well-positioned storage compartments, and wide entryways, facilitating easy movement for passengers of all ages.",
+        photo5:`${temp1}`,
+        temperature: "Maintain ideal temperatures inside the 르벤투스S+ with its advanced climate control features, allowing you to adjust settings to your preference and enjoy a comfortable indoor environment regardless of external conditions.",
+      }
     },
     {
       id: 2,
@@ -36,6 +74,19 @@ export const campcar = {
         location: "수도권",
         star:"5.2",
       },
+      details:{
+        comfort: "Embark on a journey of unparalleled comfort with the 르벤투스680S, featuring plush interiors, ergonomic seating, and state-of-the-art amenities designed to elevate your camping experience.",
+        photo2:`${comfort1}`,
+        tidiness: "Keep your surroundings pristine with the 르벤투스680S's clever storage solutions, tidy layout, and easy-to-maintain surfaces, ensuring a neat and organized living space throughout your travels.",
+        photo3:`${dining1}`,
+        ventilation: "Stay cool and refreshed in the 르벤투스680S with its effective ventilation system, which ensures continuous airflow, prevents stuffiness, and maintains a pleasant atmosphere inside the caravan.",
+        lighting: "Illuminate your adventures with the 르벤투스680S's bright LED lighting system, providing ample illumination for nighttime activities while creating a cozy ambiance inside the cabin.",
+        photo4:`${litup1}`,
+        photo6:`${Door1}`,
+        easeOfAccess: "Enjoy hassle-free access to all areas of the 르벤투스680S with its thoughtfully designed layout, convenient storage compartments, and spacious entryways, allowing for easy movement and accessibility for all passengers.",
+        photo5:`${temp1}`,
+        temperature: "Experience optimal comfort in any climate with the climate control features of the 르벤투스680S, allowing you to adjust the temperature to your liking and enjoy a cozy indoor environment on your camping adventures.",
+      }
     },
     {
       id: 3,
@@ -51,6 +102,19 @@ export const campcar = {
         location: "수도권",
         star:"4.8",
       },
+      details:{
+        comfort: "Experience unmatched comfort in the 르벤투스680 with its spacious interiors, ergonomic seating, and premium amenities, ensuring a luxurious camping experience for families and groups.",
+        photo2:`${comfort1}`,
+        tidiness: "Maintain impeccable tidiness inside the 르벤투스680 with its smart storage solutions, clutter-free design, and easy-to-clean surfaces, providing a clean and organized living space throughout your travels.",
+        photo3:`${dining1}`,
+        ventilation: "Stay cool and refreshed in the 르벤투스680 thanks to its efficient ventilation system, which promotes airflow and prevents stuffiness, ensuring a pleasant atmosphere inside the caravan.",
+        lighting: "Illuminate your adventures with the 르벤투스680's ambient LED lighting, offering ample brightness for nighttime activities while creating a cozy and inviting environment inside the cabin.",
+        photo4:`${litup1}`,
+        easeOfAccess: "Enjoy easy access to every corner of the 르벤투스680 with its thoughtful layout, convenient storage compartments, and wide entryways, facilitating seamless movement for passengers of all ages.",
+        photo6:`${Door1}`,
+        photo5:`${temp1}`,
+        temperature: "Maintain ideal indoor temperatures with the climate control features of the 르벤투스680, allowing you to adjust settings according to your preference and enjoy a comfortable environment in any weather condition.",
+      }
     },
     {
       id: 4,
@@ -66,6 +130,19 @@ export const campcar = {
         location: "수도권",
         star:"5.5",
       },
+      details:{
+        comfort: "Indulge in luxurious comfort with the 르벤투스 차박S, featuring premium seating, spacious interiors, and modern amenities designed to enhance your camping experience.",
+        photo2:`${comfort1}`,
+    tidiness: "Keep your living space tidy and organized with the 르벤투스 차박S's clever storage solutions, clutter-free design, and easy-to-clean surfaces, ensuring a neat environment throughout your journey.",
+    photo3:`${dining1}`,
+    ventilation: "Stay cool and comfortable inside the 르벤투스 차박S with its efficient ventilation system, which promotes airflow and eliminates stuffiness, ensuring a pleasant atmosphere for all occupants.",
+    lighting: "Illuminate your adventures with the bright LED lighting of the 르벤투스 차박S, providing ample brightness for nighttime activities while creating a warm and inviting ambiance inside the cabin.",
+    photo4:`${litup1}`,
+    easeOfAccess: "Experience seamless access to all areas of the 르벤투스 차박S with its user-friendly layout, well-positioned storage compartments, and wide entryways, allowing for easy movement and accessibility for everyone.",
+    photo6:`${Door1}`,
+    photo5:`${temp1}`,
+    temperature: "Maintain optimal indoor temperatures with the climate control features of the 르벤투스 차박S, allowing you to adjust settings according to your preference and enjoy a comfortable environment on your camping trips.",
+      }
     },
     {
       id: 5,
@@ -81,6 +158,19 @@ export const campcar = {
         location: "수도권",
         star:"3.7",
       },
+      details:{
+        comfort: "Embark on a journey of comfort and luxury with the spacious interiors and plush seating of the 포스650, ensuring a relaxing camping experience for large groups and families.",
+        photo2:`${comfort2}`,
+    tidiness: "Keep your living space neat and organized throughout your travels with the 포스650's ample storage options, smart layout, and easy-to-clean surfaces, providing a clutter-free environment at all times.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and refreshed inside the 포스650, thanks to its efficient ventilation system that promotes airflow and circulation, ensuring a comfortable atmosphere for all occupants.",
+    lighting: "Illuminate your adventures with the 포스650's ambient LED lighting, offering adjustable brightness levels for different activities and creating a cozy ambiance inside the caravan.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Experience effortless access to every corner of the 포스650 with its thoughtful design, wide entryways, and strategically placed amenities, ensuring convenience and ease for all passengers.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay comfortable in any weather condition with the climate control features of the 포스650, allowing you to adjust settings to your liking and enjoy an ideal temperature inside the caravan.",
+      }
     },
     {
       id: 6,
@@ -96,6 +186,19 @@ export const campcar = {
         location: "수도권",
         star:"5.3",
       },
+      details:{
+        comfort: "Indulge in supreme comfort and luxury with the 포스560, featuring spacious accommodations, premium seating, and modern amenities, ensuring a delightful camping experience for all occupants.",
+        photo2:`${comfort2}`,
+    tidiness: "Maintain a tidy and clutter-free living space inside the 포스560 with its innovative storage solutions, organized layout, and easy-to-clean surfaces, allowing you to enjoy a neat environment throughout your travels.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and comfortable inside the 포스560, thanks to its advanced ventilation system that promotes airflow and circulation, ensuring a fresh and pleasant atmosphere inside the caravan.",
+    lighting: "Illuminate your adventures with the 포스560's integrated LED lighting, offering customizable brightness levels and creating a cozy ambiance for nighttime activities and relaxation.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Enjoy hassle-free access to all areas of the 포스560 with its user-friendly design, wide entryways, and convenient amenities strategically positioned for easy reach, enhancing overall convenience for passengers.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Maintain optimal indoor temperatures with the climate control features of the 포스560, allowing you to adjust settings according to your preference and ensuring a comfortable environment inside the caravan, no matter the weather outside.",
+      }
     },
     {
       id: 7,
@@ -111,6 +214,19 @@ export const campcar = {
         location: "수도권",
         star:"5.0",
       },
+      details:{
+        comfort: "Experience unmatched comfort and coziness inside the 올카, featuring compact yet well-appointed interiors, comfortable seating, and thoughtful amenities, ensuring a delightful camping experience for small groups.",
+        photo2:`${comfort3}`,
+    tidiness: "Keep your living space tidy and organized throughout your travels with the 올카's efficient storage solutions, compact design, and easy-to-clean surfaces, providing a clutter-free environment for a stress-free journey.",
+    photo3:`${dining3}`,
+    ventilation: "Stay cool and refreshed inside the 올카 with its efficient ventilation system that promotes airflow and circulation, ensuring a pleasant atmosphere inside the caravan, even during hot summer days.",
+    photo4:`${litup3}`,
+    lighting: "Illuminate your adventures with the 올카's integrated lighting system, offering ample brightness for nighttime activities and creating a cozy ambiance for relaxation and entertainment.",
+    easeOfAccess: "Enjoy easy access to every corner of the 올카 with its compact yet functional layout, strategically placed amenities, and wide entryways, ensuring convenience and comfort for all occupants.",
+    photo6:`${Door3}`,
+    photo5:`${temp3}`,
+    temperature: "Stay comfortable in any weather condition with the 올카's climate control features, allowing you to adjust settings to your preference and ensuring a pleasant indoor temperature inside the caravan, no matter the external conditions.",
+      }
     },
     {
       id: 8,
@@ -126,6 +242,19 @@ export const campcar = {
         location: "수도권",
         star:"4.9",
       },
+      details:{
+        comfort: "Step into luxury with the DS9eR+a, boasting spacious interiors, premium amenities, and ergonomic seating, ensuring a comfortable and indulgent camping experience for large groups and families.",
+        photo2:`${comfort4}`,
+    tidiness: "Keep your living space organized and clutter-free inside the DS9eR+a with its ample storage options, smart layout, and easy-to-clean surfaces, providing a tidy environment for relaxing and unwinding.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and refreshed inside the DS9eR+a with its efficient ventilation system that promotes airflow and circulation, ensuring a pleasant atmosphere inside the caravan, even during hot summer days.",
+    lighting: "Illuminate your adventures with the DS9eR+a's ambient LED lighting, offering adjustable brightness levels and creating a cozy ambiance for nighttime activities and relaxation.",
+    photo4:`${litup4}`,
+    easeOfAccess: "Enjoy effortless access to every corner of the DS9eR+a with its spacious layout, wide entryways, and strategically placed amenities, ensuring convenience and ease for all passengers.",
+    photo6:`${Door4}`,
+    photo5:`${temp4}`,
+    temperature: "Stay comfortable in any weather condition with the DS9eR+a's climate control features, allowing you to adjust settings according to your preference and ensuring an ideal indoor temperature inside the caravan.",
+      }
     },
     {
       id: 9,
@@ -141,6 +270,19 @@ export const campcar = {
         location: "수도권",
         star:"5.1",
       },
+      details:{
+        comfort: "Experience unparalleled comfort and luxury with the DS9eU+a, featuring spacious interiors, ergonomic seating, and premium amenities, ensuring a luxurious camping experience for families and small groups.",
+        photo2:`${comfort4}`,
+    tidiness: "Keep your living space neat and organized inside the DS9eU+a with its ample storage options, smart layout, and easy-to-clean surfaces, providing a clutter-free environment for a stress-free journey.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and refreshed inside the DS9eU+a with its efficient ventilation system that promotes airflow and circulation, ensuring a pleasant atmosphere inside the caravan, even on warm days.",
+    photo4:`${litup4}`,
+    lighting: "Illuminate your adventures with the DS9eU+a's integrated LED lighting, offering adjustable brightness levels and creating a cozy ambiance for nighttime activities and relaxation.",
+    easeOfAccess: "Enjoy easy access to every corner of the DS9eU+a with its user-friendly design, wide entryways, and strategically placed amenities, ensuring convenience and comfort for all passengers.",
+    photo6:`${Door4}`,
+    photo5:`${temp4}`,
+    temperature: "Maintain optimal indoor temperatures with the climate control features of the DS9eU+a, allowing you to adjust settings according to your preference and ensuring a comfortable environment inside the caravan, regardless of external conditions.",
+      }
     },
     {
       id: 10,
@@ -156,6 +298,19 @@ export const campcar = {
         location: "수도권",
         star:"4.5",
       },
+      details:{
+        comfort: "Indulge in luxury with the ACIER 790R, featuring opulent interiors, plush seating, and state-of-the-art amenities, providing an exquisite camping experience for larger groups and families.",
+        photo2:`${comfort5}`,
+    tidiness: "Keep your living space immaculate inside the ACIER 790R with its abundant storage options, clever organization solutions, and easy-to-maintain surfaces, ensuring a tidy and inviting atmosphere throughout your journey.",
+    photo3:`${dining5}`,
+    ventilation: "Stay cool and comfortable inside the ACIER 790R with its advanced ventilation system, offering optimal airflow and circulation to keep the interior fresh and breezy, even in warm weather conditions.",
+    lighting: "Illuminate your adventures with the ambient LED lighting of the ACIER 790R, offering customizable brightness levels and creating a warm and inviting ambiance for nighttime relaxation and entertainment.",
+    photo4:`${litup5}`,
+    easeOfAccess: "Experience effortless accessibility throughout the ACIER 790R with its thoughtfully designed layout, wide entryways, and strategically placed amenities, ensuring convenience and ease for all occupants.",
+    photo6:`${Door5}`,
+    photo5:`${temp5}`,
+    temperature: "Maintain the perfect indoor climate with the temperature control features of the ACIER 790R, allowing you to adjust settings to your preference and ensuring comfort and relaxation, regardless of external conditions.",
+      }
     },
     {
       id: 12,
@@ -171,6 +326,19 @@ export const campcar = {
         location: "수도권",
         star:"5.3",
       },
+      details:{
+        comfort: "Experience the epitome of luxury with the ACIER 900 Deluxe, featuring lavish interiors, premium furnishings, and cutting-edge amenities, providing a decadent camping experience for discerning travelers.",
+        photo2:`${comfort5}`,
+    tidiness: "Keep your living space impeccably organized inside the ACIER 900 Deluxe with its ample storage solutions, cleverly integrated compartments, and easy-to-clean surfaces, ensuring a pristine environment throughout your journey.",
+    photo3:`${dining5}`,
+    ventilation: "Stay refreshed and rejuvenated inside the ACIER 900 Deluxe with its advanced ventilation system, delivering constant airflow and circulation to maintain a comfortable and invigorating atmosphere inside the caravan.",
+    lighting: "Illuminate your surroundings with the sophisticated LED lighting system of the ACIER 900 Deluxe, offering adjustable brightness settings and creating an ambiance of elegance and tranquility for memorable evenings under the stars.",
+    photo4:`${litup5}`,
+    easeOfAccess: "Enjoy seamless access to every corner of the ACIER 900 Deluxe with its thoughtful layout, wide passages, and intuitive amenities, ensuring effortless movement and convenience for all occupants.",
+    photo6:`${Door5}`,
+    photo5:`${temp1}`,
+    temperature: "Stay cozy and comfortable in any weather condition with the temperature management features of the ACIER 900 Deluxe, allowing you to regulate climate settings and create the perfect indoor environment for relaxation and enjoyment.",
+      }
     },
     {
       id: 16,
@@ -186,6 +354,19 @@ export const campcar = {
         location: " 경상권",
         star:"3.0",
       },
+      details:{
+        comfort: "Embark on a journey of comfort and relaxation with the ST-7, offering spacious interiors, ergonomic seating, and luxurious amenities, ensuring a pleasurable camping experience for families and groups.",
+        photo2:`${comfort1}`,
+    tidiness: "Maintain order and cleanliness inside the ST-7 with its clever storage solutions, dedicated compartments, and easy-to-clean surfaces, providing a tidy and inviting space throughout your travels.",
+    photo3:`${dining1}`,
+    ventilation: "Stay cool and refreshed inside the ST-7 with its efficient ventilation system, promoting air circulation and ensuring optimal airflow for a comfortable and enjoyable indoor environment.",
+    lighting: "Illuminate your adventures with the ambient lighting options of the ST-7, featuring adjustable LED fixtures to create the perfect atmosphere for relaxation, entertainment, and nighttime activities.",
+    photo4:`${litup1}`,
+    easeOfAccess: "Enjoy effortless accessibility throughout the ST-7 with its user-friendly layout, wide entry points, and strategically positioned amenities, ensuring convenience and ease of movement for all occupants.",
+    photo6:`${Door1}`,
+    photo5:`${temp1}`,
+    temperature: "Stay cozy and comfortable in every season with the temperature control features of the ST-7, allowing you to regulate heating and cooling settings to suit your preferences and ensure ideal indoor conditions.",
+      }
     },
     {
       id: 20,
@@ -201,6 +382,19 @@ export const campcar = {
         location: "경상권",
         star:"4.2",
       },
+      details:{
+        comfort: "Discover comfort and convenience with the TRAVELINE 660, offering well-appointed interiors, ergonomic seating, and modern amenities, ensuring a pleasant and relaxing camping experience for small groups.",
+        photo2:`${comfort2}`,
+    tidiness: "Keep your living space organized and clutter-free inside the TRAVELINE 660 with its ample storage compartments, smart storage solutions, and easy-to-maintain surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and ventilated inside the TRAVELINE 660 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the TRAVELINE 660, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Experience seamless access to every area of the TRAVELINE 660 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the TRAVELINE 660, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 21,
@@ -216,6 +410,19 @@ export const campcar = {
         location: "경상권",
         star:"3.9",
       },
+      details:{
+        comfort: "Experience ultimate comfort and relaxation in the TRAVELINE 550, featuring plush seating, spacious interiors, and premium amenities, ensuring a luxurious camping experience for couples or small families.",
+        photo2:`${comfort2}`,
+    tidiness: "Maintain a neat and organized living space inside the TRAVELINE 550 with its clever storage solutions, dedicated compartments, and easy-to-clean surfaces, ensuring a tidy and inviting environment throughout your travels.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and refreshed inside the TRAVELINE 550 with its efficient ventilation system, promoting air circulation and ensuring optimal airflow for a comfortable and enjoyable indoor atmosphere.",
+    lighting: "Illuminate your adventures with the adjustable lighting options of the TRAVELINE 550, allowing you to create the perfect ambiance for relaxation, entertainment, and nighttime activities during your camping trips.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Enjoy effortless accessibility throughout the TRAVELINE 550 with its user-friendly layout, wide entry points, and strategically positioned amenities, ensuring convenience and ease of movement for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay cozy and comfortable in every season with the temperature control features of the TRAVELINE 550, allowing you to regulate heating and cooling settings to suit your preferences and ensure ideal indoor conditions.",
+      }
     },
     {
       id: 22,
@@ -231,6 +438,19 @@ export const campcar = {
         location: "경상권",
         star:"5.7",
       },
+      details:{
+        comfort: "Indulge in luxury and comfort with the TRAVELINE 650, boasting spacious interiors, premium furnishings, and modern amenities, ensuring a deluxe camping experience for families and groups.",
+        photo2:`${comfort2}`,
+    tidiness: "Keep your living space organized and clutter-free inside the TRAVELINE 650 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and ventilated inside the TRAVELINE 650 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    photo4:`${litup2}`,
+    lighting: "Illuminate your surroundings with the integrated lighting features of the TRAVELINE 650, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    easeOfAccess: "Experience seamless access to every area of the TRAVELINE 650 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the TRAVELINE 650, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 23,
@@ -246,6 +466,19 @@ export const campcar = {
         location: "경상권",
         star:"5.3",
       },
+      details:{
+        comfort: "Embrace comfort and style with the TRAVELINE 350, featuring well-appointed interiors, ergonomic seating, and modern amenities, ensuring a delightful camping experience for families and small groups.",
+        photo2:`${comfort2}`,
+        tidiness: "Maintain order and cleanliness inside the TRAVELINE 350 with its clever storage solutions, dedicated compartments, and easy-to-clean surfaces, providing a tidy and inviting space throughout your travels.",
+        photo3:`${dining2}`,
+        ventilation: "Stay cool and refreshed inside the TRAVELINE 350 with its efficient ventilation system, promoting air circulation and ensuring optimal airflow for a comfortable and enjoyable indoor environment.",
+        lighting: "Illuminate your adventures with the ambient lighting options of the TRAVELINE 350, featuring adjustable LED fixtures to create the perfect atmosphere for relaxation, entertainment, and nighttime activities.",
+        photo4:`${litup2}`,
+        easeOfAccess: "Enjoy effortless accessibility throughout the TRAVELINE 350 with its user-friendly layout, wide entry points, and strategically positioned amenities, ensuring convenience and ease of movement for all occupants.",
+        photo6:`${Door2}`,
+        photo5:`${temp2}`,
+        temperature: "Stay cozy and comfortable in every season with the temperature control features of the TRAVELINE 350, allowing you to regulate heating and cooling settings to suit your preferences and ensure ideal indoor conditions.",
+      }
     },
     {
       id: 24,
@@ -261,12 +494,25 @@ export const campcar = {
         location: "경상권",
         star:"5.0",
       },
+      details:{
+        comfort: "Experience comfort and convenience on the road with the TRAVELINE 250, featuring cozy interiors, functional design, and essential amenities, ensuring a pleasant camping experience for couples or small families.",
+        photo2:`${comfort2}`,
+    tidiness: "Keep your living space organized and clutter-free inside the TRAVELINE 250 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and ventilated inside the TRAVELINE 250 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the TRAVELINE 250, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Experience seamless access to every area of the TRAVELINE 250 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the TRAVELINE 250, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 25,
       car: {
         photo: `${img2}`,
-        name: "트레블라인 220",
+        name: "트레블라인 150",
         cost: "39,000,000",
         type: "포터",
         license: "2종 보통",
@@ -276,6 +522,19 @@ export const campcar = {
         location: "경상권",
         star:"4.4",
       },
+      details:{
+        comfort: "Embark on memorable adventures with the TRAVELINE 150, offering cozy interiors, compact design, and essential amenities, ensuring a comfortable camping experience for couples or small families.",
+        photo2:`${comfort2}`,
+    tidiness: "Maintain order and cleanliness inside the TRAVELINE 150 with its clever storage solutions, dedicated compartments, and easy-to-clean surfaces, providing a tidy and inviting space throughout your travels.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and refreshed inside the TRAVELINE 150 with its efficient ventilation system, promoting air circulation and ensuring optimal airflow for a comfortable and enjoyable indoor environment.",
+    lighting: "Illuminate your adventures with the ambient lighting options of the TRAVELINE 150, featuring adjustable LED fixtures to create the perfect atmosphere for relaxation, entertainment, and nighttime activities.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Enjoy effortless accessibility throughout the TRAVELINE 150 with its user-friendly layout, wide entry points, and strategically positioned amenities, ensuring convenience and ease of movement for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay cozy and comfortable in every season with the temperature control features of the TRAVELINE 150, allowing you to regulate heating and cooling settings to suit your preferences and ensure ideal indoor conditions.",
+      }
     },
     {
       id: 31,
@@ -291,12 +550,25 @@ export const campcar = {
         location: "경상권",
         star:"4.9",
       },
+      details:{
+        comfort: "Experience the epitome of comfort and relaxation with the HWC560DL, featuring plush interiors, ergonomic design, and premium amenities, ensuring a luxurious camping experience for couples or small families.",
+        photo2:`${comfort3}`,
+        tidiness: "Keep your living space organized and clutter-free inside the HWC560DL with its clever storage solutions, dedicated compartments, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining3}`,
+        ventilation: "Stay cool and refreshed inside the HWC560DL with its efficient ventilation system, promoting air circulation and ensuring optimal airflow for a comfortable and enjoyable indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the HWC560DL, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup3}`,
+        easeOfAccess: "Experience seamless access to every area of the HWC560DL with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door3}`,
+        photo5:`${temp3}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the HWC560DL, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 32,
       car: {
         photo: `${img3}`,
-        name: "HWC620DL",
+        name: "파라다이스 450",
         cost: "76,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -306,6 +578,19 @@ export const campcar = {
         location: "경상권",
         star:"5.0",
       },
+      details:{
+        comfort: "Indulge in luxury and sophistication with the PARADISE 450, boasting spacious interiors, premium furnishings, and modern amenities, ensuring a deluxe camping experience for families and groups.",
+        photo2:`${comfort3}`,
+    tidiness: "Maintain order and cleanliness inside the PARADISE 450 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining3}`,
+    ventilation: "Stay cool and ventilated inside the PARADISE 450 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the PARADISE 450, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup3}`,
+    easeOfAccess: "Experience seamless access to every area of the PARADISE 450 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door3}`,
+    photo5:`${temp3}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 450, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 33,
@@ -321,6 +606,19 @@ export const campcar = {
         location: "경상권",
         star:"4.5",
       },
+      details:{
+        comfort: "Embark on a journey of comfort and luxury with the HWC680L, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for families and groups.",
+        photo2:`${comfort3}`,
+    tidiness: "Keep your living space organized and clutter-free inside the HWC680L with its clever storage solutions, dedicated compartments, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining3}`,
+    ventilation: "Stay cool and refreshed inside the HWC680L with its efficient ventilation system, promoting air circulation and ensuring optimal airflow for a comfortable and enjoyable indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the HWC680L, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup3}`,
+    easeOfAccess: "Experience seamless access to every area of the HWC680L with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door3}`,
+    photo5:`${temp3}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 550, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 34,
@@ -336,6 +634,19 @@ export const campcar = {
         location: "경상권",
         star:"4.3",
       },
+      details:{
+        comfort: "Experience unparalleled luxury and elegance with the HWC680DL, boasting spacious interiors, premium furnishings, and state-of-the-art amenities, ensuring a deluxe camping experience for families and groups.",
+        photo2:`${comfort3}`,
+    tidiness: "Maintain order and cleanliness inside the HWC680DL with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining3}`,
+    ventilation: "Stay cool and ventilated inside the HWC680DL with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the HWC680DL, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup3}`,
+    easeOfAccess: "Experience seamless access to every area of the HWC680DL with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door3}`,
+    photo5:`${temp3}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the HWC680DL, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 35,
@@ -351,6 +662,19 @@ export const campcar = {
         location: "경상권",
         star:"5.3",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the HWC560F, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort3}`,
+    tidiness: "Keep your living space organized and clutter-free inside the HWC560F with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining3}`,
+    ventilation: "Stay cool and ventilated inside the HWC560F with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the HWC560F, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup3}`,
+    easeOfAccess: "Experience seamless access to every area of the HWC560F with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door3}`,
+    photo5:`${temp3}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 750, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 36,
@@ -366,6 +690,19 @@ export const campcar = {
         location: "경상권",
         star:"5.0",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the HERMES 550, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort4}`,
+    tidiness: "Maintain order and cleanliness inside the HERMES 550 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and ventilated inside the HERMES 550 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the HERMES 550, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup4}`,
+    easeOfAccess: "Experience seamless access to every area of the HERMES 550 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door4}`,
+    photo5:`${temp4}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 850, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 37,
@@ -381,12 +718,25 @@ export const campcar = {
         location: "경상권",
         star:"4.6",
       },
+      details:{
+        comfort: "Experience unparalleled luxury and comfort with the HERMES 650, boasting spacious interiors, premium furnishings, and state-of-the-art amenities, ensuring a deluxe camping experience for large families and groups.",
+        photo2:`${comfort4}`,
+    tidiness: "Keep your living space organized and clutter-free inside the  HERMES 650 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and ventilated inside the  HERMES 650 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the  HERMES 650, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup4}`,
+    photo6:`${Door4}`,
+    easeOfAccess: "Experience seamless access to every area of the  HERMES 650 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo5:`${temp4}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 950, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 38,
       car: {
         photo: `${img4}`,
-        name: "V-70",
+        name: "HASSLA",
         cost: "64,900,000",
         type: "칸",
         license: " 2종 보통",
@@ -396,6 +746,19 @@ export const campcar = {
         location: "충청권",
         star:"5.9",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the HASSLA, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort4}`,
+    tidiness: "Keep your living space organized and clutter-free inside the HASSLA with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and ventilated inside the HASSLA with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the HASSLA, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup4}`,
+    photo6:`${Door4}`,
+    easeOfAccess: "Experience seamless access to every area of the HASSLA with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo5:`${temp4}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the HASSLA, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 39,
@@ -411,6 +774,19 @@ export const campcar = {
         location: "충청권",
         star:"5.2",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the HASSLA, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort4}`,
+    tidiness: "Keep your living space organized and clutter-free inside the HASSLA with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and ventilated inside the HASSLA with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the HASSLA, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup4}`,
+    photo6:`${Door4}`,
+    easeOfAccess: "Experience seamless access to every area of the HASSLA with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo5:`${temp4}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the HASSLA, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 40,
@@ -426,6 +802,19 @@ export const campcar = {
         location: "수도권",
         star:"4.7",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the OVERLAND, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort5}`,
+        tidiness: "Maintain order and cleanliness inside the OVERLAND with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+        photo3:`${dining5}`,
+        ventilation: "Stay cool and ventilated inside the OVERLAND with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the OVERLAND, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup5}`,
+        photo6:`${Door5}`,
+        easeOfAccess: "Experience seamless access to every area of the OVERLAND with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo5:`${temp5}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the OVERLAND, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 45,
@@ -441,6 +830,19 @@ export const campcar = {
         location: " 수도권",
         star:"4.6",
       },
+      details:{
+        comfort: "Experience unparalleled luxury and comfort with the DAVIDI LUXURY, boasting spacious interiors, premium furnishings, and state-of-the-art amenities, ensuring a deluxe camping experience for large families and groups.",
+        photo2:`${comfort1}`,
+        tidiness: "Keep your living space organized and clutter-free inside the DAVIDI LUXURY with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining1}`,
+        ventilation: "Stay cool and ventilated inside the DAVIDI LUXURY with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the DAVIDI LUXURY, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup1}`,
+        easeOfAccess: "Experience seamless access to every area of the DAVIDI LUXURY with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door1}`,
+        photo5:`${temp1}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of theDAVIDI LUXURY, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 46,
@@ -456,6 +858,19 @@ export const campcar = {
         location: "수도권",
         star:"4.2",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the DAVID SPECIAL, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort1}`,
+        tidiness: "Keep your living space organized and clutter-free inside the DAVID SPECIAL with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining1}`,
+        ventilation: "Stay cool and ventilated inside the DAVID SPECIAL with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the DAVID SPECIAL, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup1}`,
+        easeOfAccess: "Experience seamless access to every area of the DAVID SPECIAL with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door1}`,
+        photo5:`${temp1}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the DAVID SPECIAL, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment."
+      }
     },
     {
       id: 47,
@@ -471,6 +886,19 @@ export const campcar = {
         location: "수도권",
         star:"4.8",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the David Family, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort1}`,
+    tidiness: "Maintain order and cleanliness inside the David Family with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining1}`,
+    ventilation: "Stay cool and ventilated inside theDavid Family with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the David Family, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup1}`,
+    easeOfAccess: "Experience seamless access to every area of the David Family with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door1}`,
+    photo5:`${temp1}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the David Family, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 48,
@@ -486,6 +914,19 @@ export const campcar = {
         location: "수도권",
         star:"4.0",
       },
+      details:{
+        comfort: "Experience unparalleled luxury and comfort with the DAVID BASIC, boasting spacious interiors, premium furnishings, and state-of-the-art amenities, ensuring a deluxe camping experience for large families and groups.",
+        photo2:`${comfort1}`,
+    tidiness: "Keep your living space organized and clutter-free inside the DAVID BASIC with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining1}`,
+    ventilation: "Stay cool and ventilated inside the DAVID BASIC with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the DAVID BASIC, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup1}`,
+    photo6:`${Door1}`,
+    easeOfAccess: "Experience seamless access to every area of the DAVID BASIC with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo5:`${temp1}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the DAVID BASIC, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 49,
@@ -501,6 +942,19 @@ export const campcar = {
         location: "수도권",
         star:"4.4",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the WD5-410, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort2}`,
+        tidiness: "Keep your living space organized and clutter-free inside the WD5-410 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining2}`,
+        ventilation: "Stay cool and ventilated inside the WD5-410 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of theWD5-410, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup2}`,
+        easeOfAccess: "Experience seamless access to every area of the WD5-410 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door2}`,
+        photo5:`${temp2}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the WD5-410, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment."
+      }
     },
     {
       id: 50,
@@ -516,6 +970,19 @@ export const campcar = {
         location: "수도권",
         star:"5.3",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the WD-390, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort2}`,
+    tidiness: "Maintain order and cleanliness inside the WD-390 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and ventilated inside the WD-390 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the WD-390, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Experience seamless access to every area of the WD-390 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the WD-390, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 51,
@@ -531,6 +998,19 @@ export const campcar = {
         location: "수도권",
         star:"5.3",
       },
+      details:{
+        comfort: "Experience unparalleled luxury and comfort with the WD-330, boasting spacious interiors, premium furnishings, and state-of-the-art amenities, ensuring a deluxe camping experience for large families and groups.",
+        photo2:`${comfort2}`,
+    tidiness: "Keep your living space organized and clutter-free inside the WD-330 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and ventilated inside the WD-330 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the WD-330, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Experience seamless access to every area of the WD-330 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the WD-330, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 52,
@@ -546,12 +1026,25 @@ export const campcar = {
         location: "수도권",
         star:"4.8",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the MARLIN, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort3}`,
+        tidiness: "Keep your living space organized and clutter-free inside the MARLIN with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining3}`,
+        ventilation: "Stay cool and ventilated inside the MARLIN with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the MARLIN, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup3}`,
+        easeOfAccess: "Experience seamless access to every area of the MARLIN with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door3}`,
+        photo5:`${temp3}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the MARLIN, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment."
+      }
     },
     {
       id: 53,
       car: {
         photo: `${img4}`,
-        name: "테라-G6",
+        name: "PARADISE 1750",
         cost: "68,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -561,12 +1054,25 @@ export const campcar = {
         location: "수도권",
         star:"4.3",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the PARADISE 1750, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort4}`,
+    tidiness: "Maintain order and cleanliness inside the PARADISE 1750 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and ventilated inside the PARADISE 1750 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the PARADISE 1750, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup4}`,
+    easeOfAccess: "Experience seamless access to every area of the PARADISE 1750 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door4}`,
+    photo5:`${temp4}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 1750, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 54,
       car: {
         photo: `${img5}`,
-        name: "테라-X6",
+        name: "PARADISE 1850",
         cost: "68,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -576,12 +1082,25 @@ export const campcar = {
         location: "수도권",
         star:"3.3",
       },
+      details:{
+        comfort: "Experience unparalleled luxury and comfort with the PARADISE 1850, boasting spacious interiors, premium furnishings, and state-of-the-art amenities, ensuring a deluxe camping experience for large families and groups.",
+        photo2:`${comfort5}`,
+    tidiness: "Keep your living space organized and clutter-free inside the PARADISE 1850 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining5}`,
+    ventilation: "Stay cool and ventilated inside the PARADISE 1850 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the PARADISE 1850, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup5}`,
+    easeOfAccess: "Experience seamless access to every area of the PARADISE 1850 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door5}`,
+    photo5:`${temp5}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 1850, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 55,
       car: {
         photo: `${img5}`,
-        name: "테라-X7",
+        name: "PARADISE 1350",
         cost: "85,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -591,6 +1110,19 @@ export const campcar = {
         location: "수도권",
         star:"4.3",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the PARADISE 1350, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort5}`,
+        tidiness: "Keep your living space organized and clutter-free inside the PARADISE 1350 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining5}`,
+        ventilation: "Stay cool and ventilated inside the PARADISE 1350 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the PARADISE 1350, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup5}`,
+        easeOfAccess: "Experience seamless access to every area of the PARADISE 1350 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door5}`,
+        photo5:`${temp5}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PARADISE 1350, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment."
+      }
     },
     {
       id: 90,
@@ -606,6 +1138,19 @@ export const campcar = {
         location: "경상권",
         star:"3.8",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the Prime640, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort1}`,
+    tidiness: "Maintain order and cleanliness inside the Prime640 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining1}`,
+    ventilation: "Stay cool and ventilated inside the Prime640 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the Prime640, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup1}`,
+    easeOfAccess: "Experience seamless access to every area of the Prime640 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door1}`,
+    photo5:`${temp1}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the Prime640, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 91,
@@ -621,6 +1166,19 @@ export const campcar = {
         location: "경상권",
         star:"4.9",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the PRIME 550, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort1}`,
+        tidiness: "Keep your living space organized and clutter-free inside the PRIME 550 with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining1}`,
+        ventilation: "Stay cool and ventilated inside the PRIME 550 with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the PRIME 550, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup1}`,
+        easeOfAccess: "Experience seamless access to every area of the PRIME 550 with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door1}`,
+        photo5:`${temp1}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the PRIME 550, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment."
+      }
     },
     {
       id: 92,
@@ -636,6 +1194,19 @@ export const campcar = {
         location: "경상권",
         star:"4.5",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the HARMONY B, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort2}`,
+    tidiness: "Maintain order and cleanliness inside the HARMONY B with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining2}`,
+    ventilation: "Stay cool and ventilated inside the HARMONY B with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the HARMONY B, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup2}`,
+    easeOfAccess: "Experience seamless access to every area of the HARMONY Bwith its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door2}`,
+    photo5:`${temp2}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the HARMONY B, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+      }
     },
     {
       id: 93,
@@ -651,6 +1222,19 @@ export const campcar = {
         location: "경상권",
         star:"5.1",
       },
+      details:{
+        comfort: "Indulge in the ultimate camping experience with the HARMONY C, featuring luxurious interiors, spacious accommodations, and premium amenities, ensuring a lavish retreat for large families and groups.",
+        photo2:`${comfort3}`,
+        tidiness: "Keep your living space organized and clutter-free inside the HARMONY Cwith its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+        photo3:`${dining3}`,
+        ventilation: "Stay cool and ventilated inside the HARMONY C with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+        lighting: "Illuminate your surroundings with the integrated lighting features of the HARMONY C, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+        photo4:`${litup3}`,
+        easeOfAccess: "Experience seamless access to every area of the HARMONY C with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+        photo6:`${Door3}`,
+        temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the HARMONY C, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+        photo5:`${temp3}`,
+      }
     },
     {
       id: 95,
@@ -666,6 +1250,19 @@ export const campcar = {
         location: "수도권",
         star:"4.5",
       },
+      details:{
+        comfort: "Embark on a journey of luxury and sophistication with the V630J, featuring spacious interiors, premium amenities, and modern design elements, ensuring a delightful camping experience for large families and groups.",
+        photo2:`${comfort4}`,
+    tidiness: "Maintain order and cleanliness inside the V630J with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting space throughout your journey.",
+    photo3:`${dining4}`,
+    ventilation: "Stay cool and ventilated inside the V630J with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the V630J, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup4}`,
+    easeOfAccess: "Experience seamless access to every area of the V630J with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door4}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the V630J, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+    photo5:`${temp4}`,
+  }
     },
     {
       id: 96,
@@ -681,6 +1278,19 @@ export const campcar = {
         location: "수도권",
         star:"3.5",
       },
+      details:{
+        comfort: "Experience unparalleled luxury and comfort with the P746GJ, boasting spacious interiors, premium furnishings, and state-of-the-art amenities, ensuring a deluxe camping experience for large families and groups.",
+        photo2:`${comfort5}`,
+    tidiness: "Keep your living space organized and clutter-free inside the P746GJ with its ample storage compartments, smart storage solutions, and easy-to-clean surfaces, providing a tidy and inviting environment throughout your journey.",
+    photo3:`${dining5}`,
+    ventilation: "Stay cool and ventilated inside the P746GJ with its efficient ventilation system, promoting airflow and circulation to maintain a comfortable and refreshing indoor atmosphere during your travels.",
+    lighting: "Illuminate your surroundings with the integrated lighting features of the P746GJ, offering adjustable brightness levels and creating a cozy ambiance for evenings spent indoors or under the stars.",
+    photo4:`${litup5}`,
+    easeOfAccess: "Experience seamless access to every area of the P746GJ with its thoughtful design, wide entryways, and user-friendly amenities, ensuring easy movement and convenience for all occupants.",
+    photo6:`${Door5}`,
+    temperature: "Stay comfortable in any weather condition with the temperature management capabilities of the P746GJ, allowing you to adjust settings for heating and cooling to create the perfect indoor climate for relaxation and enjoyment.",
+    photo5:`${temp5}`,
+  }
     },
   ],
 };

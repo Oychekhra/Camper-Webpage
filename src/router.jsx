@@ -7,6 +7,7 @@ import TuningComponent from './Components/Tuning/tuning'
 import MotorComponent from './Components/Motor/motor'
 import CaravanComponent from './Components/Caravan/caravan'
 import UsedCarComponent from './Components/UsedCars/usedcar'
+import CarDetailsComponent from './Components/CarDetails/cardetails'
 
 const RouterComponent = () => {
   return (
@@ -19,6 +20,7 @@ const RouterComponent = () => {
         <Route path='/tuning' element={<TuningComponent />}/>
         <Route path='/caravan' element={<CaravanComponent />}/>
         <Route path='/usedcar' element={<UsedCarComponent />}/>
+        <Route path='/motor/:id' element={<CarDetailsComponent/>} />
         
         
      </Routes>
