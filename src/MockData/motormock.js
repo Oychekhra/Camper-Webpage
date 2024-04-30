@@ -58,7 +58,7 @@ export const campcar = {
         easeOfAccess: "Enjoy seamless access to every corner of the 르벤투스S+ with its user-friendly layout, well-positioned storage compartments, and wide entryways, facilitating easy movement for passengers of all ages.",
         photo5:`${temp1}`,
         temperature: "Maintain ideal temperatures inside the 르벤투스S+ with its advanced climate control features, allowing you to adjust settings to your preference and enjoy a comfortable indoor environment regardless of external conditions.",
-      }
+      },
     },
     {
       id: 2,
@@ -86,8 +86,9 @@ export const campcar = {
         easeOfAccess: "Enjoy hassle-free access to all areas of the 르벤투스680S with its thoughtfully designed layout, convenient storage compartments, and spacious entryways, allowing for easy movement and accessibility for all passengers.",
         photo5:`${temp1}`,
         temperature: "Experience optimal comfort in any climate with the climate control features of the 르벤투스680S, allowing you to adjust the temperature to your liking and enjoy a cozy indoor environment on your camping adventures.",
-      }
+      },
     },
+
     {
       id: 3,
       car: {
@@ -114,8 +115,8 @@ export const campcar = {
         photo6:`${Door1}`,
         photo5:`${temp1}`,
         temperature: "Maintain ideal indoor temperatures with the climate control features of the 르벤투스680, allowing you to adjust settings according to your preference and enjoy a comfortable environment in any weather condition.",
-      }
-    },
+      },
+  },
     {
       id: 4,
       car: {
@@ -142,7 +143,7 @@ export const campcar = {
     photo6:`${Door1}`,
     photo5:`${temp1}`,
     temperature: "Maintain optimal indoor temperatures with the climate control features of the 르벤투스 차박S, allowing you to adjust settings according to your preference and enjoy a comfortable environment on your camping trips.",
-      }
+      },
     },
     {
       id: 5,
@@ -170,7 +171,7 @@ export const campcar = {
     photo6:`${Door2}`,
     photo5:`${temp2}`,
     temperature: "Stay comfortable in any weather condition with the climate control features of the 포스650, allowing you to adjust settings to your liking and enjoy an ideal temperature inside the caravan.",
-      }
+      },
     },
     {
       id: 6,
@@ -198,7 +199,7 @@ export const campcar = {
     photo6:`${Door2}`,
     photo5:`${temp2}`,
     temperature: "Maintain optimal indoor temperatures with the climate control features of the 포스560, allowing you to adjust settings according to your preference and ensuring a comfortable environment inside the caravan, no matter the weather outside.",
-      }
+      },
     },
     {
       id: 7,

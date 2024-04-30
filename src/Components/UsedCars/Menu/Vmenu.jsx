@@ -1,5 +1,5 @@
 import React from 'react'
-import { NameWrapper, Button, CampCarInfo, CampCarWrapper, ImgWrapper, InfoWrapper } from './vmenustyle';
+import { NameWrapper, Button, CampCarInfo, CampCarWrapper, ImgWrapper, InfoWrapper } from '../../Motor/Menu/vmenustyle';
 import star from "../../../Assets/star.png"
 import { usedCars } from '../../../MockData/usedcarmock';
 

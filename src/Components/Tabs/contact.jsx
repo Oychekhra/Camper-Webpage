@@ -1,35 +1,29 @@
 import React from 'react'
-import MapImg from '../../Assets/map.png'
-import { ContactContainer, ContactContainerLeft, ContactContainerRight } from './contact'
+import { ContactContainer, ContactMiniWrapper, ContactWrapper, LeftContainer, MapWrapper, RightContainer } from './style'
+import QuestionComponent from './question'
+import map from '../../Assets/map.png'
 
 const ContactComponent = () => {
   return (
     <ContactContainer>
-      <ContactContainerLeft>
-        <div>
-            <img src={MapImg} alt="" />
-        </div>
-        <div>
-            <div>
-                <h6>Phone number</h6>
-                <p>+7 237 181 181</p>
-                <p>+7 210 181 191</p>
-            </div>
-            <div>
-                <h6>E-mail</h6>
-                <p>logo.uz</p>
-            </div>
-        </div>
-      </ContactContainerLeft>
-      <ContactContainerRight>
-        <h1>Have you got a question</h1>
-        <input type="text"  placeholder='Your name'/>
-        <input type="text"  placeholder='Your email'/>
-        <input type="text"  placeholder='Your question'/>
-        <button>Send question</button>
-      </ContactContainerRight>
+      <RightContainer>
+        <MapWrapper><img src={map} alt="Map" /></MapWrapper>
+        <ContactWrapper>
+            <ContactMiniWrapper>
+                <p>Phone number:</p>
+                <h1>+7 237 181 181</h1>
+                <h1>+7 210 181 191</h1>
+            </ContactMiniWrapper>
+            <ContactMiniWrapper>
+                <p>E-mail:</p>
+                <h1>logo.uz</h1>
+            </ContactMiniWrapper>
+        </ContactWrapper>
+      </RightContainer>
+      <LeftContainer>
+        <QuestionComponent />
+      </LeftContainer>
     </ContactContainer>
-
   )
 }
 

@@ -44,7 +44,7 @@ const NavbarComponent = () => {
       </MiddleNavbarWrapper>
       <SideNavbarWrapper>
         <img src={ShoppingCart} alt=" Shopping Cart Icon"/>
-        <Icon src={UserIcon} alt="User Icon" />
+       <Link to="/loginpage" tyle={{textDecorationLine:'none'}}> <Icon src={UserIcon} alt="User Icon" /></Link>
         <select name="" id="">
             <option value="">Eng</option>
             <option value="">Kor</option>

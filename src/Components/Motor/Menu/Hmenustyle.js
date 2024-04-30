@@ -8,6 +8,14 @@ export const CampCarInfo  =styled.div`
     gap:20px;
     padding:4% 0;
 
+    :hover{
+        transform: scale(1.03);
+        opacity: 0.9;
+    }
+
+;
+
+
     @media only  screen and (max-width: 1200px) {
         grid-template-columns: repeat(3, 1fr);  
     }
@@ -30,11 +38,13 @@ export const CampCarWrapper =styled.div`
     padding:5%; 
     background-color:white;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-
+    
+    
 `
 
 export const ImgWrapper =styled.div`
     display:flex;
+    flex:1;
     flex-direction:column;
     align-items:center;
     justify-content:center;
@@ -47,6 +57,7 @@ export const ImgWrapper =styled.div`
 `
 
 export const InfoWrapper =styled.div`
+    flex:1;
     width:100%;
     display:flex;
     flex-direction:column;

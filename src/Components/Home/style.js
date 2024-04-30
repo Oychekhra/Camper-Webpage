@@ -51,19 +51,23 @@ button{
   color:white;
   color: #FFF;
   width:100%;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding:12px 40px;
-text-align:center;
-border:none;
-margin-bottom:10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding:12px 40px;
+  text-align:center;
+  border:none;
+  margin-bottom:10px;
+  border-radius: 1px 1px ;
+  transform: skew(-30deg);
+    -webkit-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
 
 }
 
 select{
-  width:95%;
+  width:80%;
   border:none;
   padding:10px;
   color: var(--text, #373737);
@@ -72,7 +76,15 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+@media only screen and ( max-width:900px) {
+  button{
+    font-size: 12px;
+  }
+}
 `
+
+
 
 
 export const HeaderWrapper =styled.div`

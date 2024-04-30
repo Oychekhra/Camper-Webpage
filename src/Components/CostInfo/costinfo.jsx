@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonWrapper, CheckBox, CompareWrapper, CostInfoWrapper, EstimatedCost, ImgContainer, NeedsContainer, Title } from './costinfostyle'
+import { ButtonWrapper, CheckBox, CompareWrapper, CostInfoWrapper,EstimatedCost, ImgContainer, NeedsContainer, Title } from './costinfostyle'
 import scroll from '../../Assets/scrolldown.png'
 import Compare1 from '../../Assets/compare/car1.png'
 import Compare2 from '../../Assets/compare/car2.png'

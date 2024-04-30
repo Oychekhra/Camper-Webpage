@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { campcar } from '../../MockData/motormock';
+import { campcar } from '../../../MockData/motormock';
 import { Button, CarDetails, CarDetailsBottomContainer, CarDetailsBottomContainerImg, CarDetailsBottomContainerInfo, CarDetailsContainer, CarDetailsTopContainer, DetailsWrapper, Header, ImageWrapper, Info } from './style';
-import ItemTabs from '../Tabs/review';
+import ItemTabs from '../../Tabs/tabcontainer';
 
 const CarDetailsComponent = () => {
     let {id} = useParams();

@@ -9,6 +9,11 @@ export const CampCarInfo  =styled.div`
     width:100%;
     padding:4% 0;
 
+    :hover{
+        transform: scale(1.03);
+        opacity: 0.9;
+    }
+
 `
 export const CampCarWrapper =styled.div`
     width:100%;

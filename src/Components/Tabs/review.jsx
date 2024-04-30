@@ -1,73 +1,49 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import ContactComponent from './contact.jsx';
+import React from 'react'
+import scroll from '../../Assets/scrolldown.png'
+import { ImgWrapper, InfoWrapper, MainCon, MiniInfoWrapperLeft, MiniInfoWrapperRight, ReviewContainer, ReviewWrapper } from './style'
+import { MiniContainer, MiniSorterContainer, SorterContainer } from '../Motor/style'
+import { carreview } from '../../MockData/CarReview'
 
-function ItemReview(props) {
-  const { children, value, index, ...other } = props;
 
+const ReviewComponent = () => {
+    const data =carreview.maindata;
+    const slicedItems = data.slice(0, 5)
   return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
-    >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
+    <MainCon>
+        <ReviewContainer>
+            <MiniContainer>
+                <p> Premium Review   <span style={{color:'blue'}}>{data.length}</span></p>
+            </MiniContainer>
+            <SorterContainer>
+                <MiniSorterContainer $Left style={{width:'200px'}}>Best</MiniSorterContainer>
+                <MiniSorterContainer $Right><img src={scroll} alt="scroll icon" /></MiniSorterContainer>
+            </SorterContainer>
+        </ReviewContainer>
+    {slicedItems.map((value, key) =>{
+        return(  
+            <ReviewWrapper key={key}>
+                <ImgWrapper>
+                <div>
+                <img src={value.car.photo} alt="" />
+                </div>
+                </ImgWrapper>
+                <InfoWrapper>
+                <MiniInfoWrapperRight>
+                <h1>{value.car.name}</h1>
+                <h1>{value.car.company}</h1>
+                <h1 style={{fontSize:'12px', fontWeight:500}}>{value.view.comment}</h1>
+                </MiniInfoWrapperRight>
+                <MiniInfoWrapperLeft >
+                    <p>ID: {value.id}</p>
+                    <p>Date: {value.view.date}</p>
+                    <p>Viewed: {value.view.viewed}</p>
+                </MiniInfoWrapperLeft>
+                </InfoWrapper>
+            </ReviewWrapper>
+        );
+    })}
+    </MainCon>
+  )
 }
 
-ItemReview.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-};
-
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-}
-
-export default function ItemTabs() {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
-  return (
-        <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider'}}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{backgroundColor:' rgba(0, 109, 171, 0.20)', paddingLeft:'30px'}}>
-          <Tab label="Item reviews" {...a11yProps(0)}  className='Title'/>
-          <Tab label="Q&A" {...a11yProps(1)} className='Title' />
-          <Tab label="FAQ" {...a11yProps(2)}  className='Title'/>
-          <Tab label="Contact" {...a11yProps(3)} className='Title' />
-        </Tabs>
-      </Box>
-      <ItemReview value={value} index={0}>
-        Item One
-      </ItemReview>
-      <ItemReview value={value} index={1}>
-        Item Two
-      </ItemReview>
-      <ItemReview value={value} index={2}>
-        Item Three
-      </ItemReview>
-      <ItemReview value={value} index={3}>
-        <ContactComponent />
-      </ItemReview>
-    </Box>
-  );
-}
+export default ReviewComponent

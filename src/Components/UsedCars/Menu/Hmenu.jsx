@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrandNameWrapper, Button, CampCarInfo, CampCarWrapper, ImgWrapper, InfoWrapper } from './Hmenustyle';
+import { BrandNameWrapper, Button, CampCarInfo, CampCarWrapper, ImgWrapper, InfoWrapper } from '../../Motor/Menu/Hmenustyle';
 import star from "../../../Assets/star.png"
 import { usedCars } from '../../../MockData/usedcarmock';
 
@@ -23,11 +23,11 @@ const HmenuComponent = () => {
                     </div>
                 </BrandNameWrapper>
                 <h1>{value.car.cost}</h1>
-                </InfoWrapper>
                 <Button>
                     <button>Order</button>
                     <button>Compare</button>
                 </Button>
+                </InfoWrapper>
             </CampCarWrapper>
         );
     })}

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background from '../../Assets/home/maincarousel1.png'
+import background from '../../../Assets/home/maincarousel1.png'
 
 export const CarDetailsContainer =styled.div`
 display:flex;
@@ -75,7 +75,7 @@ justify-content:space-between;
 align-items:start;
 width:100%;
 gap:20px;
-padding:0 15%;
+padding:0 10%;
 padding-top:10px;
 margin-bottom:80px;
 
@@ -155,7 +155,7 @@ width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:0 15%;
+padding:0 10%;
 @media  only screen and (max-width: 900px){
     flex-direction:column;
     justify-content:center;

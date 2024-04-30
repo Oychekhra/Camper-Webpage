@@ -10,9 +10,9 @@ const HmenuComponent = () => {
     <CampCarInfo>
     {data.map((value, key) =>{
         return(
-            <Link to={`${value.id}`} style={{textDecorationLine:'none'}}>
+            <Link to={`${value.id}`} style={{textDecorationLine:'none', textDecorationColor:'none'}}>
             <CampCarWrapper key={key}>
-                <ImgWrapper>
+               <ImgWrapper>
                 <img src={value.car.photo || "No Data"} alt="" />
                 </ImgWrapper>
                 <InfoWrapper>
@@ -25,11 +25,11 @@ const HmenuComponent = () => {
                     </div>
                 </BrandNameWrapper>
                 <h1>{value.car.cost}  Won</h1>
-                </InfoWrapper>
                 <Button>
                     <button>Order</button>
                     <button>Compare</button>
                 </Button>
+                </InfoWrapper>
             </CampCarWrapper>
             </Link>
         );

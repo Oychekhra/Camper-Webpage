@@ -41,7 +41,7 @@ const DrawerItems = () => {
         </Title>
         </Link>
         <div>Camping Place</div>
-        <div>Sign in</div>
+        <Link to="/loginpage" style={{textDecoration:'none', width:'100%'}}><div>Sign in</div></Link>
         <div>My orders</div>
         <div>
           <select >
