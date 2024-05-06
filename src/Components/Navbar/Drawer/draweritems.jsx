@@ -3,6 +3,7 @@ import { DrawerContainer,  CloseBtn, Title } from './style';
 import Arrow from '../../../Assets/rightarrow.png'
 import Close from '../../../Assets/closebtn.png'
 import { Link } from 'react-router-dom';
+// import LoginComponent from '../../Authentication/loginpage';
 
 const DrawerItems = () => {
   return (
@@ -11,6 +12,7 @@ const DrawerItems = () => {
             <img src={Close} alt="" />
         </CloseBtn>
         <br/>
+        {/* <LoginComponent /> */}
         <Link to='/' style={{textDecoration:'none', width:'100%'}}>
         <Title>
           <p>Home</p>
@@ -40,8 +42,9 @@ const DrawerItems = () => {
           <img src={Arrow} alt="" />
         </Title>
         </Link>
+        <Link to="/campingplace" style={{textDecorationLine:'none'}}>
         <div>Camping Place</div>
-        <Link to="/loginpage" style={{textDecoration:'none', width:'100%'}}><div>Sign in</div></Link>
+        </Link>
         <div>My orders</div>
         <div>
           <select >

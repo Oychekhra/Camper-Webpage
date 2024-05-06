@@ -8,6 +8,15 @@ flex-direction:column;
 align-items:center;
 justify-content:center;
 padding:20px;
+
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
 `
 
 export const AuthContainer =styled.div`
@@ -21,8 +30,8 @@ background: #FFF;
 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
 padding:25px 30px;
 
-@media only screen and (max-width:700px){
-  width:450px;  
+@media only screen and (max-width:900px) {
+    width: 450px;
 }
 
 `
@@ -174,3 +183,25 @@ cursor: pointer;
     background: var(--blue, #006DAB);
 }
 `
+
+
+export const SignUpBackGround =styled.div`
+  animation:slide 5s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #00d4ff 50%, #006DAB 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+`
+  
+export const SignUpBackGround2 =styled.div`
+    animation-direction:alternate-reverse;
+    animation-duration:7s;
+`
+  
+export const SignUpBackGround3 =styled.div`
+    animation-duration:9s;
+  `

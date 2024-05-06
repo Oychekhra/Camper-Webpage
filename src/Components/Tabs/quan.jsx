@@ -5,31 +5,31 @@ import QuestionComponent from './question'
 const QueAnsComponent = () => {
   return (
     <QueAnsContainer>
-      <RightContainer>
-        <InfoContainer>
-            <p>Name</p>
-            <h1>Question  Lorem ipsum dolor sit amet?</h1>
-        </InfoContainer>
-        <InfoContainer>
-            <p>Name</p>
-            <h1>Question  Lorem ipsum dolor sit amet?</h1>
-        </InfoContainer>
-        <InfoContainer>
-            <p>Name</p>
-            <h1>Question  Lorem ipsum dolor sit amet?</h1>
-        </InfoContainer>
-        <InfoContainer>
-            <p>Name</p>
-            <h1>Question  Lorem ipsum dolor sit amet?</h1>
-        </InfoContainer>
-        <InfoContainer>
-            <p>Name</p>
-            <h1>Question  Lorem ipsum dolor sit amet?</h1>
-        </InfoContainer>
-      </RightContainer>
       <LeftContainer>
-        <QuestionComponent />
+        <InfoContainer>
+            <p>Name</p>
+            <h1>Question  Lorem ipsum dolor sit amet?</h1>
+        </InfoContainer>
+        <InfoContainer>
+            <p>Name</p>
+            <h1>Question  Lorem ipsum dolor sit amet?</h1>
+        </InfoContainer>
+        <InfoContainer>
+            <p>Name</p>
+            <h1>Question  Lorem ipsum dolor sit amet?</h1>
+        </InfoContainer>
+        <InfoContainer>
+            <p>Name</p>
+            <h1>Question  Lorem ipsum dolor sit amet?</h1>
+        </InfoContainer>
+        <InfoContainer>
+            <p>Name</p>
+            <h1>Question  Lorem ipsum dolor sit amet?</h1>
+        </InfoContainer>
       </LeftContainer>
+      <RightContainer>
+        <QuestionComponent />
+      </RightContainer>
     </QueAnsContainer>
   )
 }

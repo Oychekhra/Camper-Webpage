@@ -1,12 +1,12 @@
 import React from 'react'
-import UserIcon from '../../Assets/usericon.png'
 import ShoppingCart from '../../Assets/shoppingcart.png'
 import { Link } from 'react-router-dom'
-import { NavbarContainer, MiddleNavbarWrapper, SideNavbarWrapper, Icon, } from './style'
+import { NavbarContainer, MiddleNavbarWrapper, SideNavbarWrapper, } from './style'
 import LogoContainer from './Logo'
 import scroll from '../../Assets/scrolldown.png'
 import RightDrawerComponent from './Drawer/right'
 import LeftDrawerComponent from './Drawer/left'
+import LoginComponent from '../Authentication/loginpage'
 
 const NavbarComponent = () => {
   return (
@@ -39,12 +39,14 @@ const NavbarComponent = () => {
           <p>Used Car</p>
           <img src={scroll} alt="" />
         </div>
-        </Link>
+        </Link >
+        <Link to='campingplace' style={{textDecorationLine:'none'}}>
         <p>Camping Place</p>
+        </Link>
       </MiddleNavbarWrapper>
       <SideNavbarWrapper>
         <img src={ShoppingCart} alt=" Shopping Cart Icon"/>
-       <Link to="/loginpage" tyle={{textDecorationLine:'none'}}> <Icon src={UserIcon} alt="User Icon" /></Link>
+       <LoginComponent />
         <select name="" id="">
             <option value="">Eng</option>
             <option value="">Kor</option>

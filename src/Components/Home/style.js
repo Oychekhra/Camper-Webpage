@@ -42,21 +42,11 @@ line-height: normal;
 padding:20px 0;
 }
 
-
-button{
+div{
   display:flex;
   justify-content:center;
   align-items:center;
   background-color: var(--blue, #006DAB);
-  color:white;
-  color: #FFF;
-  width:100%;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding:12px 40px;
-  text-align:center;
   border:none;
   margin-bottom:10px;
   border-radius: 1px 1px ;
@@ -64,6 +54,19 @@ button{
     -webkit-transform: skew(-30deg);
     -ms-transform: skew(-30deg);
 
+    p{
+      color:white;
+  width:100%;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding:12px 40px;
+  text-align:center;
+  transform: skew(30deg);
+    -webkit-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    }
 }
 
 select{
@@ -137,6 +140,21 @@ gap:15px;
 }
 
 `
+export const  VideoPopUpContainer =styled.div`
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+width:700px;
+background-color:white;
+border-radius:20px;
+padding:20px;
+
+@media only screen and (max-width:750px) {
+    max-width:450px;
+}
+`
+
 
 export const MiniVideo =styled.div`
 background-position:center;

@@ -1,11 +1,30 @@
 import styled from "styled-components";
 
 
+export const TabWrapper =styled.div`
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+@media only  screen and (max-width:900px) {
+    .Title{
+        font-size:14px;
+    }
+}
+
+@media only  screen and (max-width:700px) {
+    .Title{
+        font-size:9px;
+        padding:3px;
+    }
+}
+`
+
+
 // ReviewItem css
 
 export const MainCon  =styled.div`
 width:100%;
-padding:0 10%;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -19,6 +38,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 gap:20px;
+padding:0 15%;
 
 p{
 color: var(--text, #373737);
@@ -42,7 +62,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 gap:5px;
-padding-bottom:10px;
+padding:10px 15%;
 border-bottom:1px solid rgba(55, 55, 55, 0.15);
 
 margin-top:20px;
@@ -138,7 +158,7 @@ export const QueAnsContainer =styled.div`
     gap:30px;
     justify-content:space-between;
     align-items:center;
-    padding:0 10%;
+    padding:0 15%;
 
     @media only screen and (max-width: 900px) {
        flex-direction:column;
@@ -148,19 +168,22 @@ export const QueAnsContainer =styled.div`
 `
 export const RightContainer =styled.div`
     width:100%;
-    flex:4;
+    flex:3;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:start;
+
+    /* border:1px solid red; */
 `
 export const InfoContainer =styled.div`
+    width:100%;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:start;
-    border-bottom:1px solid  rgba(55, 55, 55, 0.30);
     padding:20px 10px;
+    border-bottom:1px solid  rgba(55, 55, 55, 0.30);
 
     h1{
         color: #373737;
@@ -181,11 +204,20 @@ export const InfoContainer =styled.div`
 
 export const LeftContainer =styled.div`
     width:100%;
-    flex:3;
+    flex:4;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:start;
+
+    .Accordion{
+        margin-bottom:20px;
+        border:none;
+        border-radius:10px;
+        min-height:60px;
+        box-shadow:0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+
+    }
 `
 
 // FAQ CSS
@@ -195,8 +227,8 @@ export const FAQContainer =styled.div`
     display:flex;
     gap:30px;
     justify-content:space-between;
-    align-items:center;
-    padding:0 10%;
+    align-items:start;
+    padding:0 15%;
 
     @media only screen and (max-width: 900px) {
        flex-direction:column;
@@ -205,23 +237,6 @@ export const FAQContainer =styled.div`
     }
 `
 
-export const DropDownCon =styled.select`
-width:100%;
-height:60px;
-border:none;
-border-radius: 10px;
-background: #FFF;
-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
-
-color: var(--text, #373737);
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-padding:15px;
-margin-bottom:20px;
-
-`
 
 // Question  css
 
@@ -257,6 +272,12 @@ input, textarea{
     line-height: 100%; /* 14px */
 
 }
+
+@media only screen and (max-width:700px){
+  h1{
+    font-size:24px;
+  }  
+}
 `
 
 // notification css
@@ -279,7 +300,7 @@ export const ContactContainer =styled.div`
     gap:30px;
     justify-content:space-between;
     align-items:center;
-    padding:0 10%;
+    padding:0 15%;
 
     @media only screen and (max-width: 900px) {
        flex-direction:column;

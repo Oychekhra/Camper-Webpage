@@ -1,5 +1,5 @@
 import React from 'react'
-import { AuthContainer, Button, MainContainer, MemoryContainer, MemoryContainerRight, MiniUserInfo, TitleContainer, UserInfo } from './style'
+import { AuthContainer, Button, MainContainer, MemoryContainer, MemoryContainerRight, MiniUserInfo, SignUpBackGround, SignUpBackGround2, SignUpBackGround3, TitleContainer, UserInfo } from './style'
 import { Link } from 'react-router-dom'
 import Exit from '../../Assets/authentication/exit.png'
 
@@ -7,6 +7,9 @@ import Exit from '../../Assets/authentication/exit.png'
 const SignUpComponent = () => {
   return (
    <MainContainer>
+    <SignUpBackGround></SignUpBackGround>
+    <SignUpBackGround2></SignUpBackGround2>
+    <SignUpBackGround3></SignUpBackGround3>
      <AuthContainer>
         <TitleContainer>
         <h1>Registrate</h1>

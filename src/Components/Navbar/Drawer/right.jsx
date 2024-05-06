@@ -7,46 +7,31 @@ import { MenuIconImg } from '../style';
 import DrawerItems from './draweritems';
 
 export default function RightDrawerComponent() {
-  const [state, setState] = React.useState({
-    left: false,
-    right: false,
-  });
+  const [open, setOpen] = React.useState(false);
 
-  const toggleDrawer = (drawerside, open) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-      return;
-    }
 
-    setState({ ...state, [drawerside]: open });
+  const toggleDrawer = (newOpen) => () => {
+    setOpen(newOpen);
   };
 
-  const list = (drawerside) => (
-    <Box
-    sx={{ width: drawerside === 'top' || drawerside === 'bottom' ? 'auto' : 250 }}
-      role="presentation"
-      onClick={toggleDrawer(drawerside, false)}
-      onKeyDown={toggleDrawer(drawerside, false)}
-    >
+  const DrawerList = (
+    <Box sx={{ padding:'10px 20px;', width:'300px;'}}
+     role="presentation" 
+     onClick={toggleDrawer(false)}>
       <DrawerItems />
     </Box>
   );
 
   return (
-    <MenuIconImg>
-      {['right'].map((drawerside) => (
-        <React.Fragment key={drawerside}>
-          <Button onClick={toggleDrawer(drawerside, true)}>
-            <img src={MenuBar} alt="" />
-          </Button>
-          <Drawer
-            anchor={drawerside}
-            open={state[drawerside]}
-            onClose={toggleDrawer(drawerside, false)}
-          >
-            {list(drawerside)}
-          </Drawer>
-        </React.Fragment>
-      ))}
+    < MenuIconImg>
+      <Button className='Button' onClick={toggleDrawer(true)}>
+          <img  src={MenuBar} alt="Drawer icon" />
+      </Button>
+      <Drawer open={open} onClose={toggleDrawer(false)}
+      anchor='right'
+      >
+        {DrawerList}
+      </Drawer>
     </MenuIconImg>
   );
 }

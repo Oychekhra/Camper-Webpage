@@ -28,7 +28,7 @@ const QuestionComponent = () => {
       <h1> Send a question</h1>
       <input type="text" name="user_name"  placeholder='Your name'/>
       <input type="email" name="user_email" placeholder='Your Email' />
-      <textarea name="message"  placeholder='Your question' rows='7'/>
+      <textarea name="message"  placeholder='Your question'/>
       <div style={{width:'100%'}}>
       <NotificationComponent />
       </div>

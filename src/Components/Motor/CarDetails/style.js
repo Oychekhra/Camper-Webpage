@@ -68,14 +68,20 @@ background-color:transparent;
     border: 2px solid #006DAB;
 }
 `
-
+export const CarDetailsBottomWrapper =styled.div`
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+max-width:1400px;
+`
 export const CarDetails =styled.div`
 display:flex;
 justify-content:space-between;
 align-items:start;
 width:100%;
 gap:20px;
-padding:0 10%;
+padding:0 15%;
 padding-top:10px;
 margin-bottom:80px;
 
@@ -155,7 +161,7 @@ width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:0 10%;
+padding:0 15%;
 @media  only screen and (max-width: 900px){
     flex-direction:column;
     justify-content:center;

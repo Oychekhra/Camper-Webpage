@@ -6,7 +6,7 @@ import map from '../../Assets/map.png'
 const ContactComponent = () => {
   return (
     <ContactContainer>
-      <RightContainer>
+      <LeftContainer>
         <MapWrapper><img src={map} alt="Map" /></MapWrapper>
         <ContactWrapper>
             <ContactMiniWrapper>
@@ -19,10 +19,10 @@ const ContactComponent = () => {
                 <h1>logo.uz</h1>
             </ContactMiniWrapper>
         </ContactWrapper>
-      </RightContainer>
-      <LeftContainer>
-        <QuestionComponent />
       </LeftContainer>
+      <RightContainer>
+        <QuestionComponent />
+      </RightContainer>
     </ContactContainer>
   )
 }

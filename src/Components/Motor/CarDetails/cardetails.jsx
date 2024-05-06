@@ -18,6 +18,7 @@ const CarDetailsComponent = () => {
       <button>Compare</button>
     </Button>
    </CarDetailsTopContainer>
+   <div>
    <CarDetails>
     <ImageWrapper>
       <img src={resultData.car.photo} alt="" />
@@ -96,6 +97,7 @@ const CarDetailsComponent = () => {
     </CarDetailsBottomContainerImg>
    </CarDetailsBottomContainer>
    <ItemTabs />
+   </div>
    </CarDetailsContainer>
 
   )

@@ -8,13 +8,14 @@ import MotorComponent from './Components/Motor/motor'
 import CaravanComponent from './Components/Caravan/caravan'
 import UsedCarComponent from './Components/UsedCars/usedcar'
 import CarDetailsComponent from './Components/Motor/CarDetails/cardetails'
-import LoginComponent from './Components/Authentication/loginpage'
 import SignUpComponent from './Components/Authentication/signup'
+import CampingPlaceComponent from './Components/CampingPlaces/mainpage'
+import DetailsComponent from './Components/CampingPlaces/Details'
 
 const RouterComponent = () => {
   const location =useLocation();
 
-  const showNavFooterNavigate = location.pathname !=="/signup" && location.pathname !=='/loginpage';
+  const showNavFooterNavigate = location.pathname !=="/signup";
   return (
     <div>
      <>
@@ -26,8 +27,9 @@ const RouterComponent = () => {
         <Route path='/caravan' element={<CaravanComponent />}/>
         <Route path='/usedcar' element={<UsedCarComponent />}/>
         <Route path='/motor/:id' element={<CarDetailsComponent/>} />
-        <Route path='/loginpage' element={<LoginComponent/>} />
         <Route path='/signup' element={<SignUpComponent/>} />
+        <Route path='/campingplace' element={<CampingPlaceComponent/>} />
+        <Route path='/campingplace/:id' element={<DetailsComponent/>} />
         
      </Routes>
      {showNavFooterNavigate && <FooterComponent/>}

@@ -9,7 +9,9 @@ const MultiCarouselWrapper = (props) => {
       <img src={props.img} alt="No Data" />
       <MiniWrapper>
       <p>{props.name}</p>
-      <button>Discover the Range </button>
+      <div>
+        <p> Discover the Range</p>
+     </div>
       <select name="" id="">
         <option value="">Choose a model</option>
       </select>

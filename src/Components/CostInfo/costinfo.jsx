@@ -1,9 +1,12 @@
 import React from 'react'
 import { ButtonWrapper, CheckBox, CompareWrapper, CostInfoWrapper,EstimatedCost, ImgContainer, NeedsContainer, Title } from './costinfostyle'
-import scroll from '../../Assets/scrolldown.png'
 import Compare1 from '../../Assets/compare/car1.png'
 import Compare2 from '../../Assets/compare/car2.png'
 import Compare3 from '../../Assets/compare/car3.png'
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const CostInfoContainer = () => {
   return (
@@ -24,11 +27,14 @@ const CostInfoContainer = () => {
         </EstimatedCost>
        </NeedsContainer>
        <NeedsContainer>
-        <Title>
+       <Accordion  defaultExpanded className='Accordion'>
+        <AccordionSummary 
+          className='Summary'
+          expandIcon={<ExpandMoreIcon />}>
           <p>Brand</p>
-          <img src={scroll} alt="Scrool icon" />
-        </Title>
-        <CheckBox>
+        </AccordionSummary>
+        <AccordionDetails className='Details'>
+          <CheckBox>
           <div>
             <input type="checkbox" />
             <label >Aidal</label>
@@ -42,13 +48,18 @@ const CostInfoContainer = () => {
             <label >Escape</label>
           </div>
         </CheckBox>
+        </AccordionDetails>
+      </Accordion>
        </NeedsContainer>
        <NeedsContainer>
-        <Title>
+       <Accordion  defaultExpanded className='Accordion'>
+        <AccordionSummary 
+          className='Summary'
+          expandIcon={<ExpandMoreIcon />}>
           <p>Company</p>
-          <img src={scroll} alt="Scrool icon" />
-        </Title>
-        <CheckBox>
+        </AccordionSummary>
+        <AccordionDetails className='Details'>
+          <CheckBox>
           <div>
             <input type="checkbox" />
             <label >Escape</label>
@@ -58,13 +69,18 @@ const CostInfoContainer = () => {
             <label >Aidal</label>
           </div>
         </CheckBox>
+        </AccordionDetails>
+      </Accordion>
        </NeedsContainer>
        <NeedsContainer>
-        <Title>
+       <Accordion  defaultExpanded className='Accordion'>
+        <AccordionSummary 
+          className='Summary'
+          expandIcon={<ExpandMoreIcon />}>
           <p>Licence type</p>
-          <img src={scroll} alt="Scrool icon" />
-        </Title>
-        <CheckBox>
+        </AccordionSummary>
+        <AccordionDetails className='Details'>
+          <CheckBox>
           <div>
             <input type="checkbox" />
             <label >1 year</label>
@@ -78,33 +94,43 @@ const CostInfoContainer = () => {
             <label >1.5 year</label>
           </div>
         </CheckBox>
+        </AccordionDetails>
+      </Accordion>
        </NeedsContainer>
        <NeedsContainer>
-        <Title>
+       <Accordion  defaultExpanded className='Accordion'>
+        <AccordionSummary 
+          className='Summary'
+          expandIcon={<ExpandMoreIcon />}>
           <p>Number of travelers</p>
-          <img src={scroll} alt="Scrool icon" />
-        </Title>
-        <CheckBox>
+        </AccordionSummary>
+        <AccordionDetails className='Details'>
+          <CheckBox>
           <div>
             <input type="checkbox" />
-            <label >2</label>
+            <label >2 </label>
           </div>
           <div>
             <input type="checkbox" />
-            <label >3-4</label>
+            <label >3~4</label>
           </div>
           <div>
             <input type="checkbox" />
             <label >5+</label>
           </div>
         </CheckBox>
+        </AccordionDetails>
+      </Accordion>
        </NeedsContainer>
        <NeedsContainer>
-        <Title>
+       <Accordion  defaultExpanded className='Accordion'>
+        <AccordionSummary 
+          className='Summary'
+          expandIcon={<ExpandMoreIcon />}>
           <p>Location</p>
-          <img src={scroll} alt="Scrool icon" />
-        </Title>
-        <CheckBox>
+        </AccordionSummary>
+        <AccordionDetails className='Details'>
+          <CheckBox>
           <div>
             <input type="checkbox" />
             <label >Seoul</label>
@@ -118,6 +144,8 @@ const CostInfoContainer = () => {
             <label >Korea</label>
           </div>
         </CheckBox>
+        </AccordionDetails>
+      </Accordion>
        </NeedsContainer>
        <ButtonWrapper>
         <button>Cancel</button>

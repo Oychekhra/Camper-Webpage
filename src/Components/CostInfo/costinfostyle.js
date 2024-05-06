@@ -15,7 +15,36 @@ export const NeedsContainer =styled.div`
     align-items:start;
     justify-content:start;
     width:100%;
-`
+
+
+    .Accordion{
+        background-color:transparent;
+        box-shadow:none;
+        width:100%;
+
+    }
+
+    .Summary{
+        width:100%;
+        background-color:transparent;
+        box-shadow:none;
+        border-bottom: 1px solid  #B5B0A1;
+        padding:0;
+    }
+
+    p{
+        color: var(--text, #373737);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; /* 18px */
+    }
+
+    .Details{
+        padding-top:20px;
+        padding-left:0;
+    }
+    `
 
 export const EstimatedCost =styled.div`
     display:flex;
@@ -46,22 +75,22 @@ export const EstimatedCost =styled.div`
 
 `
 export const Title =styled.div`
-width:100%;
-display:flex;
-align-items:start;
-justify-content:space-between;
+    width:100%;
+    display:flex;
+    align-items:start;
+    justify-content:space-between;
 
-p{
-color: var(--text, #373737);
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 100%; /* 18px */
-}
-padding-bottom:15px;
-border-bottom:1px solid rgba(55, 55, 55, 0.30);
-margin-top:50px;
-margin-bottom:30px;
+    p{
+        color: var(--text, #373737);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; /* 18px */
+    }
+        padding-bottom:15px;
+        border-bottom:1px solid rgba(55, 55, 55, 0.30);
+        margin-top:50px;
+        margin-bottom:30px;
 `
 
 export const CheckBox =styled.div`

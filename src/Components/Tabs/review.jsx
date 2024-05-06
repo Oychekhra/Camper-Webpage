@@ -20,7 +20,7 @@ const ReviewComponent = () => {
             </SorterContainer>
         </ReviewContainer>
     {slicedItems.map((value, key) =>{
-        return(  
+        return( 
             <ReviewWrapper key={key}>
                 <ImgWrapper>
                 <div>

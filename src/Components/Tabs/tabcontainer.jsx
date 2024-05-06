@@ -8,6 +8,7 @@ import ReviewComponent from './review';
 import QueAnsComponent from './quan';
 import FAQComponent from './faq';
 import ContactComponent from './contact';
+import { TabWrapper } from './style';
 
 function TabContainer (props) {
   const { children, value, index, ...other } = props;
@@ -50,19 +51,21 @@ export default function ItemTabs() {
   };
 
   return (
-        <Box sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', marginTop:'20px' }}>
       <Box>
+      <TabWrapper>
         <Tabs value={value}
          onChange={handleChange} aria-label="basic tabs example" 
          sx={{backgroundColor:' rgba(0, 109, 171, 0.20)',
-          paddingLeft:'10%', width:'100%',
+          padding:'0 15%', width:'100%',
           '& button.Mui-selected': {backgroundColor: '#006DAB', color:'white'},
           }}>
-          <Tab label="Item reviews" {...a11yProps(0)}  className='Title'/>
+         <Tab label="Item reviews" {...a11yProps(0)}  className='Title'/>
           <Tab label="Q&A" {...a11yProps(1)} className='Title' />
           <Tab label="FAQ" {...a11yProps(2)}  className='Title'/>
           <Tab label="Contact" {...a11yProps(3)} className='Title' />
         </Tabs>
+        </TabWrapper>
       </Box>
       <TabContainer value={value} index={0}>
         <ReviewComponent />
